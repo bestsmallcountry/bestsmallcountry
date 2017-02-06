@@ -1,0 +1,27 @@
+<div class="microdata" itemscope itemtype="http://schema.org/Person">
+	{{ include.content }}
+	<div itemprop="givenName">Brian</div>
+	<div itemprop="familyName">Gorman</div>
+	<div itemprop="givenName">Brian</div>
+	<div itemprop="jobTitle">Carpenter, Joiner</div>
+    <div itemprop="url">https://www.facebook.com/brian.gorman.129</div>
+    
+	<div itemprop="owns">
+		<div itemscope itemtype="http://schema.org/LocalBusiness">
+			<div itemprop="name">Lough Rynn Gatehouse Bed and Breakfast</div>
+			<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+				<div itemprop="streetAddress">Rynn</div>
+				<div itemprop="addressLocality">Mohill</div>
+				<div itemprop="addressRegion">Co. Leitrim</div>
+				<div itemprop="addressCountry">Ireland</div>
+			</div>
+			<div itemprop="telephone">(086)8568284</div>
+			<div itemprop="url">http://www.loughrynngatehousebandb.ie/</div>
+			<div itemprop="hasMap">
+		https://www.google.ie/maps/@53.904477,-7.850177,17z
+			</div>
+			<div itemprop="image">http://scontent-lhr3-1.xx.fbcdn.net/v/t1.0-1/p160x160/12038189_515237341975538_7155424719384826333_n.jpg?oh=fa73540ff482996ba55ab3ed3823e559&oe=59153341</div>
+			<div itemprop="priceRange">50</div>
+		</div>
+	</div>
+ </div>

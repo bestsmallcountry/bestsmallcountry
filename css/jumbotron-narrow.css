@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<HTML LANG="en">
+<HEAD>
+<META http-equiv="content-type" content="text/html; charset=utf-8">
+<META name="viewport" content="width=device-width, initial-scale=0.8">
+<META name="robots" content="nofollow">
+<LINK rel="stylesheet" type="text/css" href="/style/fresh.css" />
+<link rel="stylesheet" type="text/css" href="/fresh/standard.css" />
+<TITLE>bootstrap-3.3.7.tar.gz: .../jumbotron-narrow.css | Fossies</TITLE>
+<META http-equiv=Content-Script-Type content=text/javascript>
+<script type=text/javascript src=/scripts/highlight_styles.js></script>
+</HEAD>
+<BODY>
+<script type=text/javascript src=/scripts/wz_tooltip.js></script>
+<script type=text/javascript src=/scripts/tip_balloon.js></script>
+<H2><IMG SRC="/warix/forest1.gif" WIDTH="45" HEIGHT="29" ALT=""> "<A HREF="/">Fossies</A>" - the Fresh Open Source Software Archive <IMG SRC="/warix/forest2.gif" WIDTH="48" HEIGHT="30" ALT=""></H2>
+<H3>Member "bootstrap-3.3.7/docs/examples/jumbotron-narrow/jumbotron-narrow.css" (25 Jul 2016, 1411 Bytes) of archive <A HREF="/" TITLE="Fossies homepage">/</A><A HREF="/linux/" TITLE="Listing of all main folders within the Fossies basic folder /linux/">linux</A>/<A HREF="/linux/www/" TITLE="Listing of all packages within the Fossies folder /linux/www/">www</A>/<A HREF="/linux/www/bootstrap-3.3.7.tar.gz/" TITLE="Contents listing, member browsing, download with different compression formats, Doxygen generated source code documentation &amp; more ...">bootstrap-3.3.7.tar.gz</A>:</H3>
+<HR>
+<DIV class="fresh_info">
+As a special service "Fossies" has tried to format the requested source page into HTML format using (guessed) CSS source code syntax highlighting (style: <A HREF="/select_hl_style_lang" style="text-decoration:underline;" onmouseover="Tip(hl_styles, ABOVE, false, OFFSETX, 0, OFFSETY, 5, BALLOON, true, FOLLOWMOUSE, false, WIDTH, 0, DELAY, 0, FADEIN, 0, FADEOUT, 1000, DURATION, 20000, STICKY, 1, CLICKCLOSE, true)" onmouseout="UnTip()" TITLE="About highlight style types">standard</A>) with prefixed line numbers.
+Alternatively you can here <A HREF="/linux/www/bootstrap-3.3.7.tar.gz/bootstrap-3.3.7/docs/examples/jumbotron-narrow/jumbotron-narrow.css?m=t">view</A> or <A HREF="/linux/www/bootstrap-3.3.7.tar.gz/bootstrap-3.3.7/docs/examples/jumbotron-narrow/jumbotron-narrow.css?m=b" onmouseover="Tip(hl_dl_tip, ABOVE, false, OFFSETX, 0, OFFSETY, -5, BALLOON, true, FOLLOWMOUSE, false, WIDTH, 400, DELAY, 0, FADEIN, 0, FADEOUT, 300, DURATION, 10000, STICKY, 1, CLICKCLOSE, true)" onmouseout="UnTip()" TITLE="By the way: A member file download can also be achieved by clicking within a package contents listing on the according byte size field">download</A> the uninterpreted source code file.
+ See also the last <span class="fresh_info_amo"><A HREF="/diffs/" TITLE="Fossies source code differences reports (main page)" REL="nofollow">Fossies "Diffs"</A></span> side-by-side code changes report for "jumbotron-narrow.css": <A HREF="/diffs/bootstrap/3.3.2_vs_3.3.4/docs/examples/jumbotron-narrow/jumbotron-narrow.css-diff.html" TITLE="&quot;jumbotron-narrow.css&quot; file currently unchanged, last changes on Fossies in a previous release report." STYLE="white-space: nowrap;"><IMG SRC="/delta_answer_10.png" WIDTH="13" HEIGHT="13"> 3.3.2_vs_3.3.4</A>.
+</DIV>
+<HR>
+<pre class="hl"><span id="l_1" class="hl fld"><span class="hl lin">    1 </span><span class="hl com">/* Space out content a bit */</span></span>
+<span id="l_2" class="hl fld"><span class="hl lin">    2 </span><span class="hl kwb">body</span> <span class="hl opt">{</span></span>
+<span id="l_3" class="hl fld"><span class="hl lin">    3 </span>  <span class="hl kwa">padding-top</span><span class="hl opt">:</span> <span class="hl num">20px</span><span class="hl opt">;</span></span>
+<span id="l_4" class="hl fld"><span class="hl lin">    4 </span>  <span class="hl kwa">padding-bottom</span><span class="hl opt">:</span> <span class="hl num">20px</span><span class="hl opt">;</span></span>
+<span id="l_5" class="hl fld"><span class="hl lin">    5 </span><span class="hl opt">}</span></span>
+<span id="l_6" class="hl fld"><span class="hl lin">    6 </span></span>
+<span id="l_7" class="hl fld"><span class="hl lin">    7 </span><span class="hl com">/* Everything but the jumbotron gets side spacing for mobile first views */</span></span>
+<span id="l_8" class="hl fld"><span class="hl lin">    8 </span><span class="hl opt">.</span>header<span class="hl opt">,</span></span>
+<span id="l_9" class="hl fld"><span class="hl lin">    9 </span><span class="hl opt">.</span>marketing<span class="hl opt">,</span></span>
+<span id="l_10" class="hl fld"><span class="hl lin">   10 </span><span class="hl kwc">.footer</span> <span class="hl opt">{</span></span>
+<span id="l_11" class="hl fld"><span class="hl lin">   11 </span>  <span class="hl kwa">padding-right</span><span class="hl opt">:</span> <span class="hl num">15px</span><span class="hl opt">;</span></span>
+<span id="l_12" class="hl fld"><span class="hl lin">   12 </span>  <span class="hl kwa">padding-left</span><span class="hl opt">:</span> <span class="hl num">15px</span><span class="hl opt">;</span></span>
+<span id="l_13" class="hl fld"><span class="hl lin">   13 </span><span class="hl opt">}</span></span>
+<span id="l_14" class="hl fld"><span class="hl lin">   14 </span></span>
+<span id="l_15" class="hl fld"><span class="hl lin">   15 </span><span class="hl com">/* Custom page header */</span></span>
+<span id="l_16" class="hl fld"><span class="hl lin">   16 </span><span class="hl kwc">.header</span> <span class="hl opt">{</span></span>
+<span id="l_17" class="hl fld"><span class="hl lin">   17 </span>  <span class="hl kwa">padding-bottom</span><span class="hl opt">:</span> <span class="hl num">20px</span><span class="hl opt">;</span></span>
+<span id="l_18" class="hl fld"><span class="hl lin">   18 </span>  <span class="hl kwa">border-bottom</span><span class="hl opt">:</span> <span class="hl num">1px</span> solid <span class="hl num">#e5e5e5</span><span class="hl opt">;</span></span>
+<span id="l_19" class="hl fld"><span class="hl lin">   19 </span><span class="hl opt">}</span></span>
+<span id="l_20" class="hl fld"><span class="hl lin">   20 </span><span class="hl com">/* Make the masthead heading the same height as the navigation */</span></span>
+<span id="l_21" class="hl fld"><span class="hl lin">   21 </span><span class="hl kwc">.header h3</span> <span class="hl opt">{</span></span>
+<span id="l_22" class="hl fld"><span class="hl lin">   22 </span>  <span class="hl kwa">margin-top</span><span class="hl opt">:</span> <span class="hl num">0</span><span class="hl opt">;</span></span>
+<span id="l_23" class="hl fld"><span class="hl lin">   23 </span>  <span class="hl kwa">margin-bottom</span><span class="hl opt">:</span> <span class="hl num">0</span><span class="hl opt">;</span></span>
+<span id="l_24" class="hl fld"><span class="hl lin">   24 </span>  <span class="hl kwa">line-height</span><span class="hl opt">:</span> <span class="hl num">40px</span><span class="hl opt">;</span></span>
+<span id="l_25" class="hl fld"><span class="hl lin">   25 </span><span class="hl opt">}</span></span>
+<span id="l_26" class="hl fld"><span class="hl lin">   26 </span></span>
+<span id="l_27" class="hl fld"><span class="hl lin">   27 </span><span class="hl com">/* Custom page footer */</span></span>
+<span id="l_28" class="hl fld"><span class="hl lin">   28 </span><span class="hl kwc">.footer</span> <span class="hl opt">{</span></span>
+<span id="l_29" class="hl fld"><span class="hl lin">   29 </span>  <span class="hl kwa">padding-top</span><span class="hl opt">:</span> <span class="hl num">19px</span><span class="hl opt">;</span></span>
+<span id="l_30" class="hl fld"><span class="hl lin">   30 </span>  <span class="hl kwa">color</span><span class="hl opt">:</span> <span class="hl num">#777</span><span class="hl opt">;</span></span>
+<span id="l_31" class="hl fld"><span class="hl lin">   31 </span>  <span class="hl kwa">border-top</span><span class="hl opt">:</span> <span class="hl num">1px</span> solid <span class="hl num">#e5e5e5</span><span class="hl opt">;</span></span>
+<span id="l_32" class="hl fld"><span class="hl lin">   32 </span><span class="hl opt">}</span></span>
+<span id="l_33" class="hl fld"><span class="hl lin">   33 </span></span>
+<span id="l_34" class="hl fld"><span class="hl lin">   34 </span><span class="hl com">/* Customize container */</span></span>
+<span id="l_35" class="hl fld"><span class="hl lin">   35 </span>&#64;media <span class="hl opt">(</span><span class="hl kwa">min-width</span><span class="hl opt">:</span> <span class="hl num">768px</span><span class="hl opt">) {</span></span>
+<span id="l_36" class="hl fld"><span class="hl lin">   36 </span>  <span class="hl kwc">.container</span> <span class="hl opt">{</span></span>
+<span id="l_37" class="hl fld"><span class="hl lin">   37 </span>    <span class="hl kwa">max-width</span><span class="hl opt">:</span> <span class="hl num">730px</span><span class="hl opt">;</span></span>
+<span id="l_38" class="hl fld"><span class="hl lin">   38 </span>  <span class="hl opt">}</span></span>
+<span id="l_39" class="hl fld"><span class="hl lin">   39 </span><span class="hl opt">}</span></span>
+<span id="l_40" class="hl fld"><span class="hl lin">   40 </span><span class="hl kwc">.container-narrow &gt; hr</span> <span class="hl opt">{</span></span>
+<span id="l_41" class="hl fld"><span class="hl lin">   41 </span>  <span class="hl kwa">margin</span><span class="hl opt">:</span> <span class="hl num">30px 0</span><span class="hl opt">;</span></span>
+<span id="l_42" class="hl fld"><span class="hl lin">   42 </span><span class="hl opt">}</span></span>
+<span id="l_43" class="hl fld"><span class="hl lin">   43 </span></span>
+<span id="l_44" class="hl fld"><span class="hl lin">   44 </span><span class="hl com">/* Main marketing message and sign up button */</span></span>
+<span id="l_45" class="hl fld"><span class="hl lin">   45 </span><span class="hl kwc">.jumbotron</span> <span class="hl opt">{</span></span>
+<span id="l_46" class="hl fld"><span class="hl lin">   46 </span>  <span class="hl kwa">text-align</span><span class="hl opt">:</span> <span class="hl kwb">center</span><span class="hl opt">;</span></span>
+<span id="l_47" class="hl fld"><span class="hl lin">   47 </span>  <span class="hl kwa">border-bottom</span><span class="hl opt">:</span> <span class="hl num">1px</span> solid <span class="hl num">#e5e5e5</span><span class="hl opt">;</span></span>
+<span id="l_48" class="hl fld"><span class="hl lin">   48 </span><span class="hl opt">}</span></span>
+<span id="l_49" class="hl fld"><span class="hl lin">   49 </span><span class="hl kwc">.jumbotron .btn</span> <span class="hl opt">{</span></span>
+<span id="l_50" class="hl fld"><span class="hl lin">   50 </span>  <span class="hl kwa">padding</span><span class="hl opt">:</span> <span class="hl num">14px 24px</span><span class="hl opt">;</span></span>
+<span id="l_51" class="hl fld"><span class="hl lin">   51 </span>  <span class="hl kwa">font-size</span><span class="hl opt">:</span> <span class="hl num">21px</span><span class="hl opt">;</span></span>
+<span id="l_52" class="hl fld"><span class="hl lin">   52 </span><span class="hl opt">}</span></span>
+<span id="l_53" class="hl fld"><span class="hl lin">   53 </span></span>
+<span id="l_54" class="hl fld"><span class="hl lin">   54 </span><span class="hl com">/* Supporting marketing content */</span></span>
+<span id="l_55" class="hl fld"><span class="hl lin">   55 </span><span class="hl kwc">.marketing</span> <span class="hl opt">{</span></span>
+<span id="l_56" class="hl fld"><span class="hl lin">   56 </span>  <span class="hl kwa">margin</span><span class="hl opt">:</span> <span class="hl num">40px 0</span><span class="hl opt">;</span></span>
+<span id="l_57" class="hl fld"><span class="hl lin">   57 </span><span class="hl opt">}</span></span>
+<span id="l_58" class="hl fld"><span class="hl lin">   58 </span><span class="hl kwc">.marketing p + h4</span> <span class="hl opt">{</span></span>
+<span id="l_59" class="hl fld"><span class="hl lin">   59 </span>  <span class="hl kwa">margin-top</span><span class="hl opt">:</span> <span class="hl num">28px</span><span class="hl opt">;</span></span>
+<span id="l_60" class="hl fld"><span class="hl lin">   60 </span><span class="hl opt">}</span></span>
+<span id="l_61" class="hl fld"><span class="hl lin">   61 </span></span>
+<span id="l_62" class="hl fld"><span class="hl lin">   62 </span><span class="hl com">/* Responsive: Portrait tablets and up */</span></span>
+<span id="l_63" class="hl fld"><span class="hl lin">   63 </span>&#64;media screen and <span class="hl opt">(</span><span class="hl kwa">min-width</span><span class="hl opt">:</span> <span class="hl num">768px</span><span class="hl opt">) {</span></span>
+<span id="l_64" class="hl fld"><span class="hl lin">   64 </span>  <span class="hl com">/* Remove the padding we set earlier */</span></span>
+<span id="l_65" class="hl fld"><span class="hl lin">   65 </span>  <span class="hl opt">.</span>header<span class="hl opt">,</span></span>
+<span id="l_66" class="hl fld"><span class="hl lin">   66 </span>  <span class="hl opt">.</span>marketing<span class="hl opt">,</span></span>
+<span id="l_67" class="hl fld"><span class="hl lin">   67 </span>  <span class="hl kwc">.footer</span> <span class="hl opt">{</span></span>
+<span id="l_68" class="hl fld"><span class="hl lin">   68 </span>    <span class="hl kwa">padding-right</span><span class="hl opt">:</span> <span class="hl num">0</span><span class="hl opt">;</span></span>
+<span id="l_69" class="hl fld"><span class="hl lin">   69 </span>    <span class="hl kwa">padding-left</span><span class="hl opt">:</span> <span class="hl num">0</span><span class="hl opt">;</span></span>
+<span id="l_70" class="hl fld"><span class="hl lin">   70 </span>  <span class="hl opt">}</span></span>
+<span id="l_71" class="hl fld"><span class="hl lin">   71 </span>  <span class="hl com">/* Space out the masthead */</span></span>
+<span id="l_72" class="hl fld"><span class="hl lin">   72 </span>  <span class="hl kwc">.header</span> <span class="hl opt">{</span></span>
+<span id="l_73" class="hl fld"><span class="hl lin">   73 </span>    <span class="hl kwa">margin-bottom</span><span class="hl opt">:</span> <span class="hl num">30px</span><span class="hl opt">;</span></span>
+<span id="l_74" class="hl fld"><span class="hl lin">   74 </span>  <span class="hl opt">}</span></span>
+<span id="l_75" class="hl fld"><span class="hl lin">   75 </span>  <span class="hl com">/* Remove the bottom border on the jumbotron for visual effect */</span></span>
+<span id="l_76" class="hl fld"><span class="hl lin">   76 </span>  <span class="hl kwc">.jumbotron</span> <span class="hl opt">{</span></span>
+<span id="l_77" class="hl fld"><span class="hl lin">   77 </span>    <span class="hl kwa">border-bottom</span><span class="hl opt">:</span> <span class="hl num">0</span><span class="hl opt">;</span></span>
+<span id="l_78" class="hl fld"><span class="hl lin">   78 </span>  <span class="hl opt">}</span></span>
+<span id="l_79" class="hl fld"><span class="hl lin">   79 </span><span class="hl opt">}</span></span>
+</pre></BODY></HTML><!--HTML generated by highlight, http://www.andre-simon.de/-->

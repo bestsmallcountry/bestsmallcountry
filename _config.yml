@@ -1,0 +1,58 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Best Small Country
+email: bestsmallcountry.ie@gmail.com
+description: The Best Small Country in the World
+# baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "http://bestsmallcountry.ie" # the base hostname & protocol for your site, e.g. http://example.com
+logo: images/sitelogo.png
+video: video/vid_20160327_194333.mp4 
+# twitter_username: jekyllrb
+github_username:  bestsmallcountry
+
+ampdir: amp
+
+# Custom Variables
+motto: Retaliation in the public interest
+fqdn: http://bestsmallcountry.ie
+author: Mel McWeeney
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title.html
+timezone: Europe/Dublin
+encoding: utf-8
+# lsi: true:
+theme: minima
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-amp
+  - nokogiri
+  - fastimage
+
+# limit_posts: 10
+paginate: 10
+paginate_path: "blog/page:num"
+exclude:
+  - README.md
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - .sass-cache
+  - CNAME
+  - LICENSE

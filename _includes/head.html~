@@ -1,0 +1,36 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="date" content="2017-02-06T15:11:26+0000" >
+<meta name="copyright" content="">
+<meta name="keywords" content="Ireland, Best Small Country">
+
+<meta name="twitter:card" content="site.title">
+<meta name="twitter:site" content="site.fqdn">
+<meta name="twitter:title" content="site.title">
+<meta name="twitter:description" content="site.description">
+<meta name="twitter:creator" content="site.author">
+<meta name="twitter:url" content="">
+<meta name="twitter:image" content="site.logo">
+<meta property="og:title" content="site.title">
+<meta property="og:type" content="article">
+<meta property="og:url" content="site.fqdn">
+<meta property="og:description" content="site.description">
+<meta property="og:site_name" content="site.title">
+<meta property="article:tag" content="page.title">
+<meta property="og:image" content="site.logo">
+
+  <title>{{ site.title }}{% if page.category %}, {{ page.category }}{% endif %}{% if page.source %}, {{ page.source }}{% endif %}
+  </title>
+  
+  <meta name="description" content="{{ site.description }}">
+  <meta name="ROBOTS" content="INDEX, FOLLOW">
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.fqdn }}">
+  <link rel="alternate" type="application/rss+xml" 
+  	title="{{ site.title }}" 
+  	href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.fqdn }}">
+  <script type="text/javascript" src="/js/here_there.js"></script>
+</head>

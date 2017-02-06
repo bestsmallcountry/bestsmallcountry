@@ -1,0 +1,35 @@
+<div class="microdata" itemscope itemtype="http://schema.org/LocalBusiness">
+	{{ include.content }}
+	<div itemprop="url">http://longfordsportsandleisure.ie/</div>
+	<div itemprop="name">County Longford Sports and Leisure Centre</div>
+
+	<div itemprop="description">Public Sports Facility</div>
+
+	<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+		<div itemprop="streetAddress">The Mall</div>
+		<div itemprop="addressLocality">Longford</div>
+		<div itemprop="addressRegion">Co. Longford</div>
+		<div itemprop="addressCountry">Ireland</div>
+	</div>
+	<div itemprop="telephone">043 3346536</div>
+	<div itemprop="telephone">043 3346431</div>
+	<div itemprop="email">longfordsportscentre@eircom.net</div>
+	<div itemprop="image">http://longfordsportsandleisure.ie/other/images/Pool_1.jpg</div>
+	<div itemprop="priceRange">1</div>
+
+	<div itemprop="alumni">
+		<div itemscope itemtype="http://schema.org/Person">
+			<div itemprop="givenName">David</div>
+			<div itemprop="familyName">Sheridan</div>
+			<div itemprop="jobTitle">Director</div>
+		    <div itemprop="url">http://shipmytribike.ie/</div>
+		</div>
+	</div>	
+
+	<div itemprop="alumni">
+	<div itemscope itemtype="http://schema.org/Person">
+		<div itemprop="givenName">Barry</div>
+		<div itemprop="familyName">Hall</div>
+	    <div itemprop="url">https://www.facebook.com/barry.hall.14</div>
+	</div>
+</div>
