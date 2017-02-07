@@ -41,9 +41,9 @@ gems:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-amp
-  - nokogiri
-  - fastimage
+# - jekyll-amp
+# - nokogiri
+# - fastimage
 
 # limit_posts: 10
 paginate: 10
