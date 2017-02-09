@@ -1,9 +1,8 @@
 <!doctype html>
 <html amp lang="en">
-{% include head.html %}
+{% include head-amp.html %}
 <body>
 {% include header.html %}
-{% include microdata.html %}
 <main>
 <div class="page-content">
 	<div class="wrapper">
