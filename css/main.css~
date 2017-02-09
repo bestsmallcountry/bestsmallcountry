@@ -1,3 +1,4 @@
+/* https://makefastsites.com/ */
 body {	font-family:-apple-system, BlinkMacSystemFont,
 		"Segoe UI", "Roboto", "Oxygen", "Ubuntu", 
 		"Cantarell","Fira Sans", "Droid Sans", 
@@ -187,7 +188,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
  body > h1 { display: none; color: lightgray; }
 /* h1, h2, h3, h4, h5, h6 { text-align: center; } */
 div .microdata { display: none; }
-div .microdata { color: red; }
+.microdata { color: red; }
 /* .microdata > div { display: none; } */
 /* .microdata span { display: none; } */
 /* article .microdata { display: inline; } */

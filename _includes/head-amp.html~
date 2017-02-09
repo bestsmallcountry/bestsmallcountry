@@ -1,7 +1,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	{% include head-top-amp.html %}
+	<meta name="date" content="2017-02-09T12:29:58+0000" >
 	<meta name="keywords" content="Best Small Country, Longford County Council, Longford Co. Co., 
 	Discrimination, Office of the Ombudsman, Data Protection, Freedom of Information, Garda Siochana">
 
@@ -13,10 +14,10 @@
 	<meta name="description" content="{{ site.description }}">
 	<meta name="ROBOTS" content="INDEX, FOLLOW">
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.fqdn }}">
-	<link rel="amphtml" href="{{ site.fqdn |append:'/amp' |append: page.url }}">
 
-	<script type="text/javascript" src="/js/here_there.js"></script>
-	<style>
+
+
+	<style amp-custom>
 		{% include main.css %}
 	</style>
 </head>
