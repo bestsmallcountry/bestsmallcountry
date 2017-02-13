@@ -2,21 +2,21 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="Best Small Country, Longford County Council, Longford Co. Co., 
-	Discrimination, Office of the Ombudsman, Data Protection, Freedom of Information, Garda Siochana">
+	<meta name="keywords" content="{{ site.title }}{% if page.category %}, {{ page.category }}{% endif %}{% if page.source %}, {{ page.source }}{% endif %}">
+	<style type="text/css">{% include main.css %}</style>
 
-	{% include seo.html %}
 
 	<title>{{ site.title }}{% if page.category %}, {{ page.category }}{% endif %}{% if page.source %}, {{ page.source }}{% endif %}
 	</title>
-
-	<meta name="description" content="{{ site.description }}">
+	{% if page.category %}
+	<meta name="description" content="{{ page.category }}{% if page.description %},{{ page.description }}{% endif %}">
+	{% else %}
+	<meta name="description" content="{{ site.title    }}{% if page.source      %},{{ page.source      }}{% endif %}">
+	{% endif %}
+<!--	<meta name="description" content="{% if page.category %}, {{ page.category }}{% endif %}{% if page.source %}, {{ page.source }}{% endif %}"> -->
 	<meta name="ROBOTS" content="INDEX, FOLLOW">
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.fqdn }}">
 	<link rel="amphtml" href="{{ site.fqdn |append:'/amp' |append: page.url }}">
-
-	<script type="text/javascript" src="/js/here_there.js"></script>
-	<style>
-		{% include main.css %}
-	</style>
+	{% include seo.html %}
+	<script type="text/javascript" src="/js/here_there.js" async></script>
 </head>
