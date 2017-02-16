@@ -121,12 +121,10 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .post-content h4 { font-size: 20px; }
 @media screen and (max-width: 800px) { .post-content h4 { font-size: 18px; } }
  body > h1 { display: none; color: lightgray; }
-/* h1, h2, h3, h4, h5, h6 { text-align: center; } */
-div .microdata { display: none; }
-div .microdata { color: red; }
-/* .microdata > div { display: none; } */
-/* .microdata span { display: none; } */
-/* article .microdata { display: inline; } */
+ 
+.microdata > span { display: none; }
+.content { visibility: visible; display: inline; }
+
 aside * { text-transform: capitalize; }
 post-meta { text-decoration: none; }
 nav > h2 { display: none; color: lightgray; }
@@ -135,6 +133,12 @@ aside > h1 { display: none; color: lightgray; }
 .toc { text-align: center; }
 site-footer p { text-align: center; }
 .ref { text-transform: capitalize; }
+
+.microdata > span { display: none;	}
+.microdata .content { visibility: visible; display: inline; }
+.content { visibility: visible; display: inline; }
+
+.video { width: 100%; }
 
 #share-buttons { float: right; }
 pre { clear: both; }

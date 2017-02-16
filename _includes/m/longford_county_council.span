@@ -1,0 +1,17 @@
+<span class="microdata" itemscope itemtype="http://schema.org/GovernmentOrganization">
+	{{ include.content }}
+	<span itemprop="name">Longford County Council</span>
+	<span itemprop="url">http://longfordcoco.ie/"></span>
+	<span itemprop="description">Longford County Council</span>
+	<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+		<span itemprop="streetAddress">Great Water Street</span>
+		<span itemprop="addressLocality">Longford</span>
+		<span itemprop="addressRegion">Co. Longford</span>
+		<span itemprop="postalCode">N39 NH56</span>
+		<span itemprop="addressCountry">Ireland</span>
+		<span itemprop="telephone">043 3343000</span>
+	</span>
+	<span itemprop="owns">
+		{% include m/longford_sports_and_leisure.span content="Longford Sports and Leisure" %}
+	</span>
+</span>

@@ -13,10 +13,10 @@
 	{% else %}
 	<meta name="description" content="{{ site.title    }}{% if page.source      %},{{ page.source      }}{% endif %}">
 	{% endif %}
-<!--	<meta name="description" content="{% if page.category %}, {{ page.category }}{% endif %}{% if page.source %}, {{ page.source }}{% endif %}"> -->
+
 	<meta name="ROBOTS" content="INDEX, FOLLOW">
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.fqdn }}">
-	<link rel="amphtml" href="{{ site.fqdn |append:'/amp' |append: page.url }}">
+<!--	<link rel="amphtml" href="{{ site.fqdn |append:'/amp' |append: page.url }}"> -->
 	{% include seo.html %}
 	<script type="text/javascript" src="/js/here_there.js" async></script>
 </head>
