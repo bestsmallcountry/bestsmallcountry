@@ -1,7 +1,7 @@
 <span class="microdata" itemscope itemtype="http://schema.org/GovernmentOrganization">
 	{{ include.content }}
 	<span lang="en-ie" itemprop="name">An Gárda Síochana</span>
-	<a itemprop="url" href="http://garda.ie/"></a>
+	<span itemprop="url">http://garda.ie/</span>
 	<span itemprop="description">The Irish Police Force</span>
 	<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 		<span itemprop="streetAddress">Pheonix Park</span>
@@ -11,17 +11,8 @@
 		<span itemprop="addressCountry">Ireland</span>
 		<span itemprop="telephone">01 666 0000</span>
 	</span>
-	
-	<span itemprop="memberOf">
-		<span itemscope itemtype="http://schema.org/GovernmentOrganization">
-			<span itemprop="name" lang="en-ie">Dáil Éireann</span>
-			<a itemprop="url" href="http://gov.ie/"></a>
-			<span itemprop="description">The Government of Ireland</span>
-			<span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
-				<span itemprop="streetAddress">Kildare Street</span>
-				<span itemprop="addressLocality">Dublin</span>
-				<span itemprop="addressCountry">Ireland</span>
-			</span>
-		</span>
+<!--	<span itemprop="memberOf">
+		{% include m/gov_ie.span content="The Irish Government" ending="</span>" %}
 	</span>
-</span>
+-->
+{{ include.ending }}

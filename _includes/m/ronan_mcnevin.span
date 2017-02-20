@@ -5,57 +5,17 @@
 	<span itemprop="jobTitle">Director</span>
 	<span itemprop="url">https://www.facebook.com/ronan.mcnevin</span>
     <span itemprop="url">https://twitter.com/RonanMcNevin</span>
-    
-
 
 	<span itemprop="memberOf">
-		<span itemscope itemtype="http://schema.org/Organization">
-			<span itemprop="name">Longford Swimming Club</span>
-			<span itemprop="address">The Mall, Longford, Ireland</span>
-			<span itemprop="url">http://longfordswimmingclub.com</span>
-			<span itemprop="url">https://www.facebook.com/LongfordSwimmingClub/</span>
-			<span itemprop="url">https://twitter.com/LongfordSC</span>
-		</span>
+		{% include m/longford_swimming_club.span content="Longford Swimming Club" ending="</span>" %}
 	</span>
 	
 	<span itemprop="knows">
-
-<span itemscope itemtype="http://schema.org/Person">
-	<span itemprop="givenName">Padraic</span>
-	<span itemprop="familyName">McWeeney</span>
-	<span itemprop="jobTitle">Teacher</span>
-	<span itemprop="url">https://ie.linkedin.com/in/padraic-mcweeney-8b6456a6</span>
-    <span itemprop="url">https://www.facebook.com/MrPadraicMcWeeney</span>
-    
-	<span itemprop="worksFor">
-		<span itemscope itemtype="http://schema.org/EducationalOrganization">
-			<span itemprop="address">Longford, Ireland</span>
-			<span itemprop="url">http://stmelscollege.ie</span>
-			<span itemprop="email">stmels@stmelscollege.ie</span>
-			<span itemprop="telephone">(043) 3346469</span>
-			<span itemprop="faxNumber">(043) 3346905</span>
-		</span>
+		{% include m/janet_mcweeney.span content="Janet McWeeney" ending="</span>" %}
 	</span>
 	
-	<span itemprop="spouse">
-		<span itemscope itemtype="http://schema.org/Person">
-			<span itemprop="givenName">Janet</span>
-			<span itemprop="familyName">McWeeney</span>
-			<span itemprop="address">Melview, Longford</span>
-		    <span itemprop="url">http://www.facebook.com/janet.mcweeney.71</span>
-		</span>
-		</span>
-	</span>
-
 	<span itemprop="knows">
-		<span itemscope itemtype="http://schema.org/Person">
-			<span itemprop="givenName">Barry</span>
-			<span itemprop="familyName">Hall</span>
-			<span itemprop="url">https://www.facebook.com/barry.hall.14</span>
-		</span>
+		{% include m/padraic_mcweeney.span content="Padraic McWeeney" ending="</span>" %}
 	</span>
-</span>
 
-
-	</span>
 {{ include.ending }}

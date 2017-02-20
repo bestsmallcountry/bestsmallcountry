@@ -29,4 +29,4 @@
     <span itemprop="image">http://longfordsportsandleisure.ie/other/images/building_sm.jpg</span>
     <span itemprop="priceRange">1</span>
 	</span>
-</span>
+{{ include.ending }}

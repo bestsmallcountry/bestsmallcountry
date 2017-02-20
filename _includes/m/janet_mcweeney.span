@@ -1,0 +1,21 @@
+<span class="microdata" itemscope itemtype="http://schema.org/Person">
+	{{ include.content }}
+	<span itemprop="givenName">Janet</span>
+	<span itemprop="familyName">McWeeney</span>
+	<span itemprop="address">Melview, Longford</span>
+    <span itemprop="url">http://www.facebook.com/janet.mcweeney.71</span>
+    <span itemprop="url">https://twitter.com/janet_mcweeney</span>
+
+	<span itemprop="spouse">
+		{% include m/padraic_mcweeney.span content="Padraic McWeeney" ending="</span>" %}
+	</span>
+
+	<span itemprop="worksFor">
+		{% include m/scoil_eimear.span %}
+	</span>
+
+	<span itemprop="memberOf">
+		{% include m/longford_swimming_club.span content="Longford Swimming Club" ending="</span>" %}
+	</span>
+
+{{ include.ending }}

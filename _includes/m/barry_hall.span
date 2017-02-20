@@ -1,0 +1,11 @@
+<span class="microdata" itemscope itemtype="http://schema.org/Person">
+	{{ include.content }}
+	<span itemprop="givenName">Barry</span>
+	<span itemprop="familyName">Hall</span>
+	<span itemprop="url">https://www.facebook.com/barry.hall.14</span>
+
+	<span itemprop="knows">
+		{% include m/david_sheridan.span content="David Sheridan" ending="</span>" %}
+	</span>
+
+{{ include.ending }}

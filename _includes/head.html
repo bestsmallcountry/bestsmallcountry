@@ -9,9 +9,9 @@
 	<title>{{ site.title }}{% if page.category %}, {{ page.category }}{% endif %}{% if page.source %}, {{ page.source }}{% endif %}
 	</title>
 	{% if page.category %}
-	<meta name="description" content="{{ page.category }}{% if page.description %},{{ page.description }}{% endif %}">
+	<meta name="description" content="{{ page.category }}{% if page.description %},{{ page.description }}{% endif %}: {{ page.title }}">
 	{% else %}
-	<meta name="description" content="{{ site.title    }}{% if page.source      %},{{ page.source      }}{% endif %}">
+	<meta name="description" content="{{ site.title    }}{% if page.source      %},{{ page.source      }}{% endif %}: {{ page.title }}">
 	{% endif %}
 
 	<meta name="ROBOTS" content="INDEX, FOLLOW">

@@ -4,8 +4,7 @@
 	<span itemprop="url">http://gov.ie/</span>
 	<span itemprop="description">The Government of Ireland</span>
 	<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-		<span itemprop="streetAddress">Kildare Street</span>
-		<span itemprop="addressLocality">Dublin</span>
-		<span itemprop="addressCountry">Ireland</span>
-	</span>
-</span>
+	<span itemprop="streetAddress">Kildare Street</span>
+	<span itemprop="addressLocality">Dublin</span>
+	<span itemprop="addressCountry">Ireland</span>
+{{ include.ending }}

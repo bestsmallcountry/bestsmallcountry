@@ -1,0 +1,8 @@
+<span itemscope itemtype="http://schema.org/Organization">
+	{{ include.content }}
+	<span itemprop="name">Longford Swimming Club</span>
+	<span itemprop="address">The Mall, Longford, Ireland</span>
+	<span itemprop="url">http://longfordswimmingclub.com</span>
+	<span itemprop="url">https://www.facebook.com/LongfordSwimmingClub/</span>
+	<span itemprop="url">https://twitter.com/LongfordSC</span>
+{{ include.ending }}
