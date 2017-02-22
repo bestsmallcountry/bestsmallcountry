@@ -55,7 +55,8 @@ who they misdeployed against me
 	{% include m/ombudsman.span content="Office of the Ombudsman" %}</a>
     who disregarded whatever evidence was necessary so as to cover up the wrong.
     If kangaroo courts are wrong, then why does the Irish State operate this one.</li>
-<li>The Office of the <a href="http://dataprotect.ie/">Data Protection Commissioner</a>
+<li>The Office of the <a href="http://dataprotect.ie/">
+	{% include m/data_protection.span content="Data Protection Commissioner" %}</a>
 
 <span class="microdata" itemscope itemtype="http://schema.org/GovernmentOrganization">
 	<span itemprop="name">Data Protection Commissioner</span>
