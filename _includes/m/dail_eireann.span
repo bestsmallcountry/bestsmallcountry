@@ -1,0 +1,11 @@
+<span class="microdata" itemscope itemtype="http://schema.org/GovernmentOrganization">
+	{{ include.content }}
+	<span itemprop="name" lang="en-ie">Dáil Éireann</span>
+	<span itemprop="url" href="http://gov.ie/"></span>
+	<span itemprop="description">The Government of Ireland</span>
+	<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+		<span itemprop="streetAddress">Kildare Street</span>
+		<span itemprop="addressLocality">Dublin</span>
+		<span itemprop="addressCountry">Ireland</span>
+	</span>
+</span>

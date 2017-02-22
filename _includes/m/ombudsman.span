@@ -1,0 +1,28 @@
+<span class="microdata" itemscope itemtype="http://schema.org/GovernmentOrganization">
+	{{ include.content }}
+	<span itemprop="name">The Office of the Ombudsman</span>
+	<span itemprop="url">http://ombudsman.gov.ie/</span>
+	<span itemprop="description">Investigates complaints about public officials.</span>
+	<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+		<span itemprop="streetAddress">18 Lower Leeson Street</span>
+		<span itemprop="addressLocality">Dublin</span>
+		<span itemprop="postalCode">D02 HE97</span>
+		<span itemprop="addressCountry">Ireland</span>
+	</span>
+	<span itemprop="telephone">(1890)253238</span>
+	<span itemprop="telephone">(01)6395689</span>
+	<span itemprop="faxNumber">(01)6395674</span>
+	<span itemprop="faxNumber">(01)6395676</span>
+	<span itemprop="memberOf">
+		<span itemscope itemtype="http://schema.org/GovernmentOrganization">
+			<span itemprop="name" lang="en-ie">Dáil Éireann</span>
+			<a itemprop="url" href="http://gov.ie/"></a>
+			<span itemprop="description">The Government of Ireland</span>
+			<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+				<span itemprop="streetAddress">Kildare Street</span>
+				<span itemprop="addressLocality">Dublin</span>
+				<span itemprop="addressCountry">Ireland</span>
+			</span>
+		</span>
+	</span>
+</span>

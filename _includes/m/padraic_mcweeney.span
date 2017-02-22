@@ -6,6 +6,7 @@
 	<span itemprop="url">https://ie.linkedin.com/in/padraic-mcweeney-8b6456a6</span>
 	<span itemprop="url">https://www.facebook.com/padraic.mcweeney</span>
 	<span itemprop="url">https://twitter.com/padraicmcweeney</span>
+	<span itemprop="url">http://s370.photobucket.com/user/padraic17/profile/</span>
     
 	<span itemprop="worksFor">
 		{% include m/st_mels_college.span content="St. Mels College" ending="</span>" %}

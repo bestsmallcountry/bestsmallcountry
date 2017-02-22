@@ -1,0 +1,13 @@
+<span class="microdata" itemscope itemtype="http://schema.org/GovernmentOrganization">
+	{{ include.content }}
+	<span itemprop="name">Data Protection Commissioner</span>
+	<span itemprop="url">http://dataprotection.ie/</span>
+	<span itemprop="description">Investigates complaints about misuse of data</span>
+	<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+		<span itemprop="streetAddress">Station Road</span>
+		<span itemprop="addressLocality">Portarlington</span>
+		<span itemprop="addressRegion">Co. Laois</span>
+		<span itemprop="addressCountry">Ireland</span>
+	</span>
+	
+</span>
