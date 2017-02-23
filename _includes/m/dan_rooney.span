@@ -1,0 +1,20 @@
+<span class="microdata" itemscope itemtype="http://schema.org/Person">
+	{{ include.content }}
+	<span itemprop="givenName">Dan</span>
+	<span itemprop="familyName">Rooney</span>
+	<span itemprop="telephone">(043)3341470</span>
+	<span itemprop="address">Knockahaw, Dublin Road, Longford</span>
+	<span itemprop="worksFor">
+		<span itemscope itemtype="http://schema.org/GovernmentOrganization">
+			<span itemprop="name">Longford Town Council</span>
+			<span itemprop="url">http://www.longfordcoco.ie/longfordtowncouncil.htm</span>
+			<span itemprop="description">Longford Town Council</span>
+			<span itemprop="dissolutionDate">2014-06-01</span>
+		</span>
+	</span>
+
+	<span itemprop="spouse">
+		{% include m/noeleen_rooney.span content="Noleen Rooney" %}
+	</span>
+
+</span>

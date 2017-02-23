@@ -20,8 +20,9 @@ description: A personal account of dealings with Irish officialdom.
 			{{ post.category }}: {{ post.source }}</span>
 		</div>
 		<span>
-    		<img src="/images/svg/garda.svg" alt="Garda Logo" height="50" width="50" >
-			<a href="{{ post.url }}">{{ post.title }}</a>
+    		
+			<img src="/images/svg/garda.svg" alt="Garda Logo" height="50" width="50" >
+			<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 		</span>
 	</span>
     </li>

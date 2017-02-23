@@ -11,7 +11,13 @@
 		<span itemprop="addressCountry">Ireland</span>
 		<span itemprop="telephone">043 3343000</span>
 	</span>
+	
 	<span itemprop="owns">
 		{% include m/longford_sports_and_leisure.span content="Longford Sports and Leisure" %}
 	</span>
+
+	<span itemprop="memberOf">
+		{% include m/dail_eireann.span content="The Irish State" %}
+	</span>
+
 </span>
