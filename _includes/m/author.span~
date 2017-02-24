@@ -1,8 +1,0 @@
-<span itemscope itemtype="http://schema.org/Person">
-	{{ include.content }}
-	<span itemprop="url">https://ie.linkedin.com/in/mmcweeney</span>
-	<span itemprop="name">Mel McWeeney</span>
-	<span itemscope itemtype="http://schema.org/Organization">
-	<span itemprop="name">Best Small Country</span></span>
-	<span itemprop="jobtitle">Linux, Web, Security and Dev-Ops Specialist</span>
-</span>
