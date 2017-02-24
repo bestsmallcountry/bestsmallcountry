@@ -1,6 +1,7 @@
 <span class="microdata" itemscope itemtype="http://schema.org/Person">
 	{{ include.content }}
+	<span itemprop="name">Declan Newman</span>
 	<span itemprop="givenName">Declan</span>
 	<span itemprop="familyName">Newman</span>
 	<span itemprop="url">https://www.facebook.com/declan.newman.3</span>
-{{ include.ending }}
+</span>

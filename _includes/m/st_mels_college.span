@@ -5,4 +5,4 @@
 	<span itemprop="email">stmels@stmelscollege.ie</span>
 	<span itemprop="telephone">(043) 3346469</span>
 	<span itemprop="faxNumber">(043) 3346905</span>
-{{ include.ending }}
+</span>

@@ -12,7 +12,7 @@
 		<span itemprop="telephone">01 666 0000</span>
 	</span>
 <!--	<span itemprop="memberOf">
-		{% include m/gov_ie.span content="The Irish Government" ending="</span>" %}
+		{% include m/gov_ie.span content="The Irish Government" %}
 	</span>
 -->
-{{ include.ending }}
+</span>

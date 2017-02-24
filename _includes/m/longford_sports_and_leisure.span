@@ -29,7 +29,8 @@
 		<span itemprop="familyName">Hall</span>
 	    <span itemprop="url">https://www.facebook.com/barry.hall.14</span>
 	</span>
-    <span itemprop="image">http://longfordsportsandleisure.ie/other/images/building_sm.jpg</span>
-    <span itemprop="priceRange">1</span>
+	    <span itemprop="image">http://longfordsportsandleisure.ie/other/images/building_sm.jpg</span>
+	    <span itemprop="priceRange">1</span>
 	</span>
-{{ include.ending }}
+
+</span>

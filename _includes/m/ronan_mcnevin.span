@@ -1,5 +1,6 @@
 <span class="microdata" itemscope itemtype="http://schema.org/Person">
 	{{ include.content }}
+	<span itemprop="name">Ronan McNevin</span>
 	<span itemprop="givenName">Ronan</span>
 	<span itemprop="familyName">McNevin</span>
 	<span itemprop="jobTitle">Director</span>
@@ -7,15 +8,15 @@
     <span itemprop="url">https://twitter.com/RonanMcNevin</span>
 
 	<span itemprop="memberOf">
-		{% include m/longford_swimming_club.span content="Longford Swimming Club" ending="</span>" %}
+		{% include m/longford_swimming_club.span content="Longford Swimming Club" %}
 	</span>
 	
 	<span itemprop="knows">
-		{% include m/janet_mcweeney.span content="Janet McWeeney" ending="</span>" %}
+		{% include m/janet_mcweeney.span content="Janet McWeeney" %}
 	</span>
 	
 	<span itemprop="knows">
-		{% include m/padraic_mcweeney.span content="Padraic McWeeney" ending="</span>" %}
+		{% include m/padraic_mcweeney.span content="Padraic McWeeney" %}
 	</span>
 
-{{ include.ending }}
+</span>

@@ -1,5 +1,6 @@
 <span class="microdata" itemscope itemtype="http://schema.org/Person">
 	{{ include.content }}
+	<span itemprop="name">Brian Gorman</span>
 	<span itemprop="givenName">Brian</span>
 	<span itemprop="familyName">Gorman</span>
 	<span itemprop="givenName">Brian</span>

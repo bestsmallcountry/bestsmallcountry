@@ -1,5 +1,6 @@
 <span class="microdata" itemscope itemtype="http://schema.org/Person">
 	{{ include.content }}
+	<span itemprop="name">Dan Rooney</name>
 	<span itemprop="givenName">Dan</span>
 	<span itemprop="familyName">Rooney</span>
 	<span itemprop="telephone">(043)3341470</span>

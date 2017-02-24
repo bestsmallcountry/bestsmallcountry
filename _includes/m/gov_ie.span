@@ -7,4 +7,4 @@
 	<span itemprop="streetAddress">Kildare Street</span>
 	<span itemprop="addressLocality">Dublin</span>
 	<span itemprop="addressCountry">Ireland</span>
-{{ include.ending }}
+</span>

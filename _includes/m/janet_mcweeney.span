@@ -1,5 +1,6 @@
 <span class="microdata" itemscope itemtype="http://schema.org/Person">
 	{{ include.content }}
+	<span itemprop="name">Janet McWeeney</span>
 	<span itemprop="givenName">Janet</span>
 	<span itemprop="familyName">McWeeney</span>
 	<span itemprop="address">Melview, Longford</span>
@@ -7,15 +8,15 @@
     <span itemprop="url">https://twitter.com/janet_mcweeney</span>
 
 	<span itemprop="spouse">
-		{% include m/padraic_mcweeney.span content="Padraic McWeeney" ending="</span>" %}
+		{% include m/padraic_mcweeney.span content="Padraic McWeeney" %}
 	</span>
 
 	<span itemprop="worksFor">
-		{% include m/scoil_eimear.span %}
+		{% include m/scoil_eimear.span content="Scoil Eimear" %}
 	</span>
 
 	<span itemprop="memberOf">
-		{% include m/longford_swimming_club.span content="Longford Swimming Club" ending="</span>" %}
+		{% include m/longford_swimming_club.span content="Longford Swimming Club" %}
 	</span>
 
-{{ include.ending }}
+</span>

@@ -1,5 +1,6 @@
 <span itemscope itemtype="http://schema.org/Person">
 	{{ include.content }}
+	<span itemprop="name">Padraic McWeeney</span>
 	<span itemprop="givenName">Padraic</span>
 	<span itemprop="familyName">McWeeney</span>
 	<span itemprop="jobTitle">Teacher</span>
@@ -9,10 +10,15 @@
 	<span itemprop="url">http://s370.photobucket.com/user/padraic17/profile/</span>
     
 	<span itemprop="worksFor">
-		{% include m/st_mels_college.span content="St. Mels College" ending="</span>" %}
+		{% include m/st_mels_college.span content="St. Mels College" %}
 	</span>
 
 	<span itemprop="knows">
-		{% include m/barry_hall.span content="Barry Hall" ending="</span>" %}
+		{% include m/barry_hall.span content="Barry Hall" %}
 	</span>
-{{ include.ending }}
+
+	<span itemprop="alunmiOf">
+		{% include m/longford_swimming_club.span content="Longford Swimming Club" %}
+	</span>
+
+</span>
