@@ -1,0 +1,26 @@
+
+
+<div itemscope itemtype="http://schema.org/NewsArticle">
+    <h1 itemprop="headline">{{ page.title }}</h1>
+    <span itemprop="datePublished" content="2017-02-24">2017-02-24</span>
+    <span itemprop="description">{{ page.description }}</span><br>
+    <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+        <meta itemprop="height" content="200">
+        <meta itemprop="width" content="300">
+        <meta itemprop="url" content="http://bestsmallcountry.github.io/images/site.logo">
+        <img src="http://bestsmallcountry.github.io/images/site.logo" alt="site.logo">
+    </div>
+    Author: <span itemprop="author">{{ author }}</span><br>
+    <div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+        <div itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+            <meta itemprop="url" content="http://bestsmallcountry.github.io/images/site.logo">
+            <img src="http://bestsmallcountry.github.io/images/site.logo" alt="undefined">
+        </div>
+        <span itemprop="name">{{ site.author }}</span>
+    </div>
+    <span itemprop="articleBody">
+	    {% include share.html %}
+		{{ content }}
+	</span>
+</div>
+
