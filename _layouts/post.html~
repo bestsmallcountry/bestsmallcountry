@@ -41,15 +41,8 @@ layout: default
 			<span itemprop="name">{{ author }}</span>
 		</span>
 	{% else %}
-		<span itemscope itemtype="http://schema.org/Person">
-			<span itemprop="url">https://ie.linkedin.com/in/mmcweeney</span>
-			<span itemprop="name">Mel McWeeney</span>
-			<span itemscope itemtype="http://schema.org/Organization">
-			<span itemprop="name">Best Small Country</span></span>
-			<span itemprop="jobtitle">Linux Dev-Ops Specialist</span>
-		</span>
+		{% include m/mel.span content="Mel McWeeney" %}
 	{% endif %}
-
 	<span itemprop="headline">{{ page.title }}</span>
 	<span itemprop="image">{{ site.logo }}</span>
 	<span itemprop="publisher">site.author</span>

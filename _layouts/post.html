@@ -24,6 +24,17 @@ layout: default
 {% endif %}
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+	{% if author %}
+		<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+			<span itemprop="name">{{ author }}</span>
+		</span>
+	{% else %}
+		{% include m/mel.span content="Mel McWeeney" %}
+	{% endif %}
+	<span itemprop="headline">{{ page.title }}</span>
+	<span itemprop="image">{{ site.logo }}</span>
+	<span itemprop="publisher">site.author</span>
+	<span itemprop="mainEntityOfPage">{{ page.source }}</span>
 
 <header class="post-header">
 	<h2>{{ page.title }}</h2>
@@ -36,17 +47,7 @@ layout: default
 		itemprop="dateModified">{{ page.date | date: "%b %-d, %Y" }}
 	</time>
 
-	{% if author %}
-		<span itemprop="author" itemscope itemtype="http://schema.org/Person">
-			<span itemprop="name">{{ author }}</span>
-		</span>
-	{% else %}
-		{% include m/mel.span content="Mel McWeeney" %}
-	{% endif %}
-	<span itemprop="headline">{{ page.title }}</span>
-	<span itemprop="image">{{ site.logo }}</span>
-	<span itemprop="publisher">site.author</span>
-	<span itemprop="mainEntityOfPage">{{ page.source }}</span>
+
 	</p>
 </header>
 
