@@ -12,7 +12,7 @@
 	</span>
 
 	<span itemprop="colleague">
-		{% include m/janet.mcweeney.span content="Janet McWeeney" %}
+		{% include m/janet_mcweeney.span content="Janet McWeeney" %}
 	</span>
 
 </span>

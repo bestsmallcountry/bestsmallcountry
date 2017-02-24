@@ -1,19 +1,55 @@
 ---
 layout: default
 ---
+{% if page.path contains '-i' %}
+	{% if page.source %}
+		{% assign author = page.source %}
+		{% if page.category %}
+			{% assign author= page.source, page.category %}
+		{% endif %}
+	{% elsif page.category %}
+		{% assign author = page.category %}
+	{% endif %}
+{% elsif page.path contains '-o' %}
+		{% assign author = site.author %}
+{% else %}
+	{% if page.source %}
+		{% assign author = page.source %}
+		{% if page.category %}
+			{% assign author= page.source, page.category %}
+		{% endif %}
+	{% elsif page.category %}
+		{% assign author = page.category %}
+	{% endif %}
+{% endif %}
+
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
 <header class="post-header">
 	<h2>{{ page.title }}</h2>
 	<p class="post-meta">
+
 	<time datetime="{{ page.date | date_to_xmlschema }}" 
 		itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}
 	</time>
-	{% if page.author %}
+	<time datetime="{{ page.date | date_to_xmlschema }}" 
+		itemprop="dateModified">{{ page.date | date: "%b %-d, %Y" }}
+	</time>
+
+	{% if author %}
 		<span itemprop="author" itemscope itemtype="http://schema.org/Person">
-			<span itemprop="name">{{ page.author }}</span>
+			<span itemprop="name">{{ author }}</span>
+		</span>
+	{% else %}
+		<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+			<span itemprop="name">{{ site.author }}</span>
 		</span>
 	{% endif %}
+
+	<span itemprop="headline">{{ page.title }}</span>
+	<span itemprop="image">{{ site.logo }}</span>
+	<span itemprop="publisher">site.author</span>
+	<span itemprop="mainEntityOfPage">{{ page.source }}</span>
 	</p>
 </header>
 

@@ -3,13 +3,21 @@ layout: null
 sitemap:
   exclude: 'no'
 ---
+<h3>page.path</h3>
+{% if page.path contains '-i' %}
+	{{ page.path }} is incoming
+{% elsif page.path contains '-o' %}
+	{{ page.path }} is outgoing
+{% else %}
+	{{ page.path }}
+{% endif %}
 <!--
 {% assign ampdir = site.ampdir %}
 {% assign ppath = page.path %}
 {% assign pagepath = page.path %}
 {% assign directory = page.path |prepend: ampdir |remove: ppath %}
 -->
-
+<!--
 {% assign sitepages = "/index.html" |append: "/blog/index.html" |append: "/about/index.html" |append: site.posts %}
 {% for post in site.posts %}
   			<url>
@@ -36,7 +44,7 @@ sitemap:
 			</url>
 <br />
 {% endfor %}
-
+-->
 <hr />
 
 {% capture something %}
@@ -45,8 +53,6 @@ sitemap:
 {{ something }}
 <hr />
 
-<h3>page.path</h3>
- {{ page.path }}
 
 <h3>Experiment<h3>
  {{ page.path |remove: ppath }}
