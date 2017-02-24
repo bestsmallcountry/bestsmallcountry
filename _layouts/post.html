@@ -24,13 +24,8 @@ layout: default
 {% endif %}
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-	{% if author %}
-		<span itemprop="author" itemscope itemtype="http://schema.org/Person">
-			<span itemprop="name">{{ author }}</span>
-		</span>
-	{% else %}
-		{% include m/mel.span content="Mel McWeeney" %}
-	{% endif %}
+	<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+		{% include m/author.span content="{{ author }}" %}
 	<span itemprop="headline">{{ page.title }}</span>
 	<span itemprop="image">{{ site.logo }}</span>
 	<span itemprop="publisher">site.author</span>
