@@ -1,0 +1,35 @@
+  <article itemscope itemtype="http://schema.org/BlogPosting">
+    <span itemprop="headline">{{ page.title }}</span>
+
+
+    <time itemprop="datePublished" datetime="2016-06-18T12:02:41Z">Sunday, June 18, 2016</time>
+    <time itemprop="dateModified" datetime="2016-06-18T12:02:41Z">Sunday, June 18, 2016</time>
+
+    <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Chris Snedaker">
+    </div>
+    <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+      <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+        <img width="600" height="60" src="http://cdn.ampproject.org/logo.jpg">
+        <meta itemprop="url" content="http://cdn.ampproject.org/logo.jpg">
+        <meta itemprop="width" content="600">
+        <meta itemprop="height" content="60">
+      </div>
+      <meta itemprop="name" content="Afotech">
+    </div>
+
+    <div class="article-content" itemprop="mainEntityOfPage">
+      <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+        <img width="200" height="300" src="{{ site.logo }}">
+        <meta itemprop="url" content="{{ site.logo }}">
+        <meta itemprop="width" content="200">
+        <meta itemprop="height" content="300">
+      </div>
+
+      <div class="" itemprop="articleBody">
+        <p>Body of Article</p>
+
+      </div>
+    </div>
+  </article>
+  
