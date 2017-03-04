@@ -12,25 +12,16 @@
 	<span itemprop="telephone">043 3346536</span>
 	<span itemprop="telephone">043 3346431</span>
 	<span itemprop="email">longfordsportscentre@eircom.net</span>
-	<span itemprop="image">http://assets.centralindex.com/J/93/56ecb0588086f4a34fbca633e4a07518_256.jpg</span>
+	<span itemprop="image">http://longfordsportsandleisure.ie/other/images/building_sm.jpg</span>
 	<span itemprop="priceRange">1</span>
 
-	<span itemprop="alumni">
-		<span itemscope itemtype="http://schema.org/Person">
-			<span itemprop="givenName">David</span>
-			<span itemprop="familyName">Sheridan</span>
-			<span itemprop="jobTitle">Director</span>
-			<span itemprop="url">http://shipmytribike.ie/</span>
-		</span>
-	</span>	
-	<span itemprop="alumni">
-	<span itemscope itemtype="http://schema.org/Person">
-		<span itemprop="givenName">Barry</span>
-		<span itemprop="familyName">Hall</span>
-	    <span itemprop="url">https://www.facebook.com/barry.hall.14</span>
-	</span>
-	    <span itemprop="image">http://longfordsportsandleisure.ie/other/images/building_sm.jpg</span>
-	    <span itemprop="priceRange">1</span>
-	</span>
 
+	<span itemprop="alumni">
+		{% include m/david_sheridan.span content="David Sheridan" %}
+	</span>	
+
+	<span itemprop="alumni">
+		{% include m/barry_hall.span content="Barry Hall" %}
+	</span>	
+	
 </span>

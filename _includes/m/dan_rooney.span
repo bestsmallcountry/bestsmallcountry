@@ -5,13 +5,9 @@
 	<span itemprop="familyName">Rooney</span>
 	<span itemprop="telephone">(043)3341470</span>
 	<span itemprop="address">Knockahaw, Dublin Road, Longford</span>
+
 	<span itemprop="worksFor">
-		<span itemscope itemtype="http://schema.org/GovernmentOrganization">
-			<span itemprop="name">Longford Town Council</span>
-			<span itemprop="url">http://www.longfordcoco.ie/longfordtowncouncil.htm</span>
-			<span itemprop="description">Longford Town Council</span>
-			<span itemprop="dissolutionDate">2014-06-01</span>
-		</span>
+		{% include m/longford_town_council.span content="Longford Town Council" %}
 	</span>
 
 	<span itemprop="spouse">

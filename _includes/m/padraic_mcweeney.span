@@ -16,9 +16,5 @@
 	<span itemprop="knows">
 		{% include m/barry_hall.span content="Barry Hall" %}
 	</span>
-<!--
-	<span itemprop="alunmiOf">
-		{% include m/longford_swimming_club.span content="Longford Swimming Club" %}
-	</span>
--->
+
 </span>

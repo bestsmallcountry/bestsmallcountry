@@ -7,7 +7,7 @@ description: A personal account of dealings with Irish officialdom.
 
 <ul class="post-list">
 	{% for post in site.posts %}
-	{% if post.category == "Office of the Data Protection Commissioner" %}
+	{% if post.category contains "Data Protection Commissioner" %}
     <li>
     	<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}
 		{{ post.category }}: {{ post.source }}</span>

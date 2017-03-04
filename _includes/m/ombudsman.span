@@ -13,16 +13,9 @@
 	<span itemprop="telephone">(01)6395689</span>
 	<span itemprop="faxNumber">(01)6395674</span>
 	<span itemprop="faxNumber">(01)6395676</span>
+
 	<span itemprop="memberOf">
-		<span itemscope itemtype="http://schema.org/GovernmentOrganization">
-			<span itemprop="name" lang="en-ie">Dáil Éireann</span>
-			<a itemprop="url" href="http://gov.ie/"></a>
-			<span itemprop="description">The Government of Ireland</span>
-			<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-				<span itemprop="streetAddress">Kildare Street</span>
-				<span itemprop="addressLocality">Dublin</span>
-				<span itemprop="addressCountry">Ireland</span>
-			</span>
-		</span>
+		{% include m/gov_ie.span content="The Irish State" %}
 	</span>
+
 </span>

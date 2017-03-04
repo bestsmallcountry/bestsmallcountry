@@ -1,7 +1,7 @@
 <span class="microdata" itemscope itemtype="http://schema.org/GovernmentOrganization">
 	{{ include.content }}
 	<span itemprop="name">Longford County Council</span>
-	<span itemprop="url">http://longfordcoco.ie/"></span>
+	<span itemprop="url">http://longfordcoco.ie/</span>
 	<span itemprop="description">Longford County Council</span>
 	<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 		<span itemprop="streetAddress">Great Water Street</span>
@@ -15,9 +15,9 @@
 	<span itemprop="owns">
 		{% include m/longford_sports_and_leisure.span content="Longford Sports and Leisure" %}
 	</span>
-
+<!--
 	<span itemprop="memberOf">
 		{% include m/dail_eireann.span content="The Irish State" %}
 	</span>
-
+-->
 </span>
