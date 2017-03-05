@@ -17,17 +17,52 @@ description: A personal account of dealings with Irish officialdom.
   {% else %}
     <span class="next ">&gt;</span>
   {% endif %}
-</div>
+
+{% assign img_width = "50" %}
 
 <ul class="post-list">
-	{% for post in paginator.posts %}
-    <li>
-    	<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}
-		{{ post.category }}: {{ post.source }}</span>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    </li>
-  {% endfor %}
+{% for post in paginator.posts %}
+	{% if post.category contains "Coral Leisure" %}
+		{% assign img_src = "/images/svg/coral.svg" %}	
+		{% assign img_alt = "Coral Leisure Logo" %}
+	{% elsif post.category contains "Data Protection" %}
+		{% assign img_src = "/images/svg/dataprotection.svg" %}	
+		{% assign img_alt = "Data Protection Commissioner Logo" %}
+	{% elsif post.category contains "Public Expenditure" %}
+		{% assign img_src = "/images/svg/foi.svg" %}	
+		{% assign img_alt = "Department of Public Expenditure and Reform Logo" %}
+	{% elsif post.category contains "Garda" %}
+		{% assign img_src = "/images/svg/garda.svg" %}	
+		{% assign img_alt = "Garda Logo" %}
+	{% elsif post.category contains "Data Protection" %}
+		{% assign img_src = "/images/svg/dataprotection.svg" %}	
+		{% assign img_alt = "Information Commissioner Logo" %}
+	{% elsif post.category contains "Longford " %}
+		{% assign img_src = "/images/svg/longfordcoco.svg" %}	
+		{% assign img_alt = "Longford County Council Logo" %}
+	{% elsif post.category contains "Office of the Ombudsman" %}
+		{% assign img_src = "/images/svg/ombudsman.svg" %}
+		{% assign img_alt = "Office of the Ombudsman Logo" %}
+	{% elsif post.category contains "Dept. of " %}
+		{% assign img_src = "/images/svg/ireland-coa.svg" %}
+		{% assign img_alt = "Irish Coat of Arms Logo" %}
+	{% elsif post.title contains " fire" %}
+		{% assign img_src = "/images/svg/fire.svg" %}
+		{% assign img_alt = "Irish Coat of Arms Logo" %}
+	{% else %}
+		{% assign img_src = "/images/svg/else.svg" %}
+		{% assign img_alt = "No Logo Available" %}
+	{% endif %}
+	{% if post.category %}
+		{% if post.source %}
+			{% assign catsource = {{ post.category }}, %}
+		{% else %}
+			{% assign catsource = {{ post.category }} %}
+		{% endif %}
+	{% endif %}
+	{% include bloglisting.html date=post.date category=post.category source=post.source url=post.url title=post.title img=img_src alt=img_alt width=img_width %}
+{% endfor %}
 </ul>
-
+</div>
 <p class="rss-subscribe">Feed <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
 </div>
