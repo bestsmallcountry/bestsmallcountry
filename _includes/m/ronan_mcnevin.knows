@@ -1,0 +1,3 @@
+<span itemprop="knows">
+  {% include m/ronan_mcnevin.span content="Ronan McNevin" %}
+</span>

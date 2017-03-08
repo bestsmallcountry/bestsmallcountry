@@ -19,4 +19,6 @@
 		{% include m/longford_swimming_club.span content="Longford Swimming Club" %}
 	</span>
 
+	{% include m/barry_hall.knows %}
+
 </span>
