@@ -39,7 +39,7 @@ any previous barring made by the
 {% include m/paddy_mahon.span content="Longford" %} 
 {% include m/gerry_warnock.span content="Pool" %} 
 {% include m/john_browne.span content="Construction" %}  
-{% include m/barbara_heslin.span content="board" %} 
+board 
 {% include m/ronan_mcnevin.span content="of" %} 
 {% include m/padraig_loughrey.span content="directors." %}
 And refer back to the 

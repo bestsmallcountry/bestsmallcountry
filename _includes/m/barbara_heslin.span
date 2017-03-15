@@ -1,0 +1,10 @@
+<span class="microdata" itemscope itemtype="http://schema.org/Person">
+	{{ include.content }}
+	<span itemprop="name">Barbara Heslin</span>
+	<span itemprop="givenName">Barbara</span>
+	<span itemprop="familyName">Heslin</span>
+
+	<span itemprop="telephone">043 3343313</span>
+	<span itemprop="email">fsheridan@longfordcoco.ie</span>
+
+</span>
