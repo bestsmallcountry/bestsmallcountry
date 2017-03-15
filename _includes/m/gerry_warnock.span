@@ -1,0 +1,19 @@
+<span class="microdata" itemscope itemtype="http://schema.org/Person">
+	{{ include.content }}
+	<span itemprop="name">Gerry Warnock</span>
+	<span itemprop="givenName">Gerry</span>
+	<span itemprop="familyName">Warnock</span>
+		<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+		<span itemprop="streetAddress">11 Beech Lane, Prospect Woods</span>
+		<span itemprop="addressLocality">Longford</span>
+		<span itemprop="addressRegion">Co. Longford</span>
+		
+		<span itemprop="addressCountry">Ireland</span>
+	</span>
+	<span itemprop="telephone">087 9663562</span>
+	<span itemprop="email">gwarnock@longfordcoco.ie</span>
+    <span itemprop="url">https://www.facebook.com/Cllr-Gerry-Warnock-218374545029552/</span>
+	<span itemprop="url">https://twitter.com/gerrywarnock</span>
+	<span itemprop="url">https://ie.linkedin.com/in/gerry-warnock-b234117b</span>
+
+</span>

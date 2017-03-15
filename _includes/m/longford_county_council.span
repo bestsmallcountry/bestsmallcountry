@@ -9,15 +9,15 @@
 		<span itemprop="addressRegion">Co. Longford</span>
 		<span itemprop="postalCode">N39 NH56</span>
 		<span itemprop="addressCountry">Ireland</span>
-		<span itemprop="telephone">043 3343000</span>
 	</span>
+	<span itemprop="telephone">043 3343000</span>
 	
 	<span itemprop="owns">
 		{% include m/longford_sports_and_leisure.span content="Longford Sports and Leisure" %}
 	</span>
-<!--
-	<span itemprop="memberOf">
-		{% include m/dail_eireann.span content="The Irish State" %}
+
+	<span itemprop="owns">
+		{% include m/longford_library.span content="Longford County Library" %}
 	</span>
--->
+
 </span>

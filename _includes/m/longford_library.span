@@ -1,0 +1,19 @@
+<span class="microdata" itemscope itemtype="http://schema.org/Person">
+	{{ include.content }}
+	<span itemprop="name">Longford County Library</span>
+	<span itemprop="description">Longford County Library</span>
+	<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+		<span itemprop="streetAddress">Town Centre</span>
+		<span itemprop="addressLocality">Longford</span>
+		<span itemprop="addressRegion">Co. Longford</span>
+		<span itemprop="addressCountry">Ireland</span>
+	</span>
+	<span itemprop="telephone">043 3340727</span>
+	<span itemprop="email">library@longfordcoco.ie</span>
+	<span itemprop="url">http://www.longfordlibrary.ie/</span>
+	<span itemprop="url">https://www.facebook.com/longfordlibraries/</span>
+	<span itemprop="url">https://twitter.com/Longfordlibrary</span>
+	<span itemprop="url">https://www.youtube.com/channel/UCVa8Z_ohzcuhS530lvJRtng</span>
+	<span itemprop="url">https://vimeo.com/longfordlibrary</span>
+
+</span>

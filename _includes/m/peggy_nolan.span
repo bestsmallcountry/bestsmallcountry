@@ -1,0 +1,22 @@
+<span class="microdata" itemscope itemtype="http://schema.org/Person">
+	{{ include.content }}
+	<span itemprop="name">Peggy Nolan</span>
+	<span itemprop="givenName">Peggy</span>
+	<span itemprop="familyName">Nolan</span>
+		<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+		<span itemprop="streetAddress">43 Demense</span>
+		<span itemprop="addressLocality">Longford</span>
+		<span itemprop="addressRegion">Co. Longford</span>
+		
+		<span itemprop="addressCountry">Ireland</span>
+	</span>
+	<span itemprop="telephone">043 3345469</span>
+	<span itemprop="telephone">086 1701519</span>
+    <span itemprop="url">https://www.facebook.com/Cllr-Gerry-Warnock-218374545029552/</span>
+	<span itemprop="email">pnolan@longfordcoco.ie</span>
+	<span itemprop="email">peggynolan@eircom.net</span>
+
+	<span itemprop="url">https://irishelectionliterature.files.wordpress.com/2014/04/peggynolan2.jpg</span>
+	<span itemprop="url">http://www.whoismytd.com/person/peggy-nolan</span>
+
+</span>

@@ -1,0 +1,28 @@
+<span class="microdata" itemscope itemtype="http://schema.org/Person">
+	{{ include.content }}
+	<span itemprop="name">John Browne</span>
+	<span itemprop="givenName">John</span>
+	<span itemprop="familyName">Browne</span>
+		<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+		<span itemprop="streetAddress">9 College Park</span>
+		<span itemprop="addressLocality">Longford</span>
+		<span itemprop="addressRegion">Co. Longford</span>
+		
+		<span itemprop="addressCountry">Ireland</span>
+	</span>
+	<span itemprop="telephone">043 3346600</span>
+	<span itemprop="telephone">086 8561405</span>
+
+	<span itemprop="owns">
+		{% include m/john_brownes_pub.span content="John Brownes Pub" %}
+	</span>
+
+	<span itemprop="owns">
+		{% include m/john_browne_accountants.span content="Loughreys Pharmacy" %}
+	</span>
+
+	<span itemprop="memberOf">
+		{% include m/longford_county_council.span content="Longford County Council" %}
+	</span>
+
+</span>

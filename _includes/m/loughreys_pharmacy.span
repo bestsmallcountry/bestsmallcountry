@@ -1,0 +1,12 @@
+<span class="microdata" itemscope itemtype="http://schema.org/LocalBusiness">
+	<span itemprop="name">Loughrey's Pharmacy</span>
+	<span itemprop="address">20, Dublin Street, Longford, Co. Longford, Ireland</span>
+	<span itemprop="url">http://loughreyspharmacy.com</span>
+	<span itemprop="url">https://www.facebook.com/loughreys/</span>
+	<span itemprop="image">https://www.facebook.com/471287432894727/photos/1145829822107148/</span>
+	<span itemprop="priceRange">0</span>
+	<span itemprop="telephone">(043)3342493</span>
+	<span itemprop="hasMap">
+https://www.google.ie/maps/place/LoughreyPharmacy/@53.726665,-7.7970842,18z/
+	</span>
+</span>

@@ -1,0 +1,14 @@
+<span class="microdata" itemscope itemtype="http://schema.org/Person">
+	{{ include.content }}
+	<span itemprop="name">Mary Morrissey</span>
+	<span itemprop="givenName">Mary</span>
+	<span itemprop="familyName">Morrissey</span>
+	<span itemprop="jobTitle">Director</span>
+	<span itemprop="telephone">086 1219281</span>
+	<span itemprop="url">https://www.facebook.com/LongfordToastmasters/</span>
+
+	<span itemprop="memberOf">
+		{% include m/longford_county_council.span content="Longford County Council" %}
+	</span>
+
+</span>

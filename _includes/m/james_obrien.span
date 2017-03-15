@@ -1,0 +1,20 @@
+<span class="microdata" itemscope itemtype="http://schema.org/Person">
+	{{ include.content }}
+	<span itemprop="name">James O'Brien</span>
+	<span itemprop="givenName">James</span>
+	<span itemprop="familyName">James O'Brien</span>
+	<span itemprop="jobTitle">Manager</span>
+
+	<span itemprop="knows">
+		{% include m/janet_mcweeney.span content="Barry Hall" %}
+	</span>
+
+	<span itemprop="knows">
+		{% include m/mary_denneny.span content="Mary Denneny" %}
+	</span>
+
+	<span itemprop="worksFor">
+		{% include m/longford_sports_and_leisure.span content="Longford Sports and Leisure Centre" %}
+	</span>
+
+</span>

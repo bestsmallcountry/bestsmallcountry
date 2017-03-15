@@ -1,0 +1,19 @@
+<span class="microdata" itemscope itemtype="http://schema.org/Person">
+	{{ include.content }}
+	<span itemprop="name">Willie O'Dowd</span>
+	<span itemprop="givenName">Willie</span>
+	<span itemprop="familyName">O'Dowd</span>
+	<span itemprop="jobTitle">Librarian</span>
+	<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+		<span itemprop="streetAddress">Town Centre</span>
+		<span itemprop="addressLocality">Longford</span>
+		<span itemprop="addressRegion">Co. Longford</span>
+		<span itemprop="addressCountry">Ireland</span>
+	</span>
+	<span itemprop="url">https://www.linkedin.com/in/willie-odowd-01275777/</span>
+
+	<span itemprop="worksFor">
+		{% include m/longford_library.span content="Longford County Library" %}
+	</span>
+
+</span>

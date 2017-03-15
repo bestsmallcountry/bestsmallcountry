@@ -11,7 +11,11 @@ description: A personal account of dealings with Irish officialdom.
   {% else %}
     <span class="previous">&lt;</span>
   {% endif %}
+
+	{% include page_navigation.html %}
+<!--
   <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+-->
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path }}" class="next">&gt;</a>
   {% else %}
@@ -64,5 +68,6 @@ description: A personal account of dealings with Irish officialdom.
 {% endfor %}
 </ul>
 </div>
+{% include page_navigation.html %}
 <p class="rss-subscribe">Feed <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
 </div>

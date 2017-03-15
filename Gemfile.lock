@@ -20,6 +20,8 @@ GEM
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
     jekyll-amp (0.1.0)
+    jekyll-compose (0.5.0)
+      jekyll (>= 3.0.0)
     jekyll-feed (0.8.0)
       jekyll (~> 3.3)
     jekyll-paginate (1.1.0)
@@ -57,6 +59,7 @@ DEPENDENCIES
   fastimage
   jekyll (= 3.3.1)
   jekyll-amp
+  jekyll-compose
   jekyll-feed (~> 0.6)
   jekyll-paginate (~> 1.1)
   jekyll-sitemap (~> 1.0)

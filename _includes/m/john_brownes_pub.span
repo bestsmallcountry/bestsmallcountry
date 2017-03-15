@@ -1,0 +1,12 @@
+<span class="microdata" itemscope itemtype="http://schema.org/LocalBusiness">
+	<span itemprop="name">John Browne's Pub</span>
+	<span itemprop="address">Market Square, Longford, Co. Longford, Ireland</span>
+	<span itemprop="url">https://www.facebook.com/pages/John-Brownes-Pub/270639956384283</span>
+	
+	<span itemprop="image">https://scontent-lhr3-1.xx.fbcdn.net/v/t1.0-1/p200x200/10417481_422055627943763_6052569719991135684_n.jpg</span>
+	<span itemprop="priceRange">0</span>
+	<span itemprop="telephone">(043)3346600</span>
+	<span itemprop="hasMap">
+https://www.google.ie:443/maps/@53.725158,-7.8006283,18z
+	</span>
+</span>

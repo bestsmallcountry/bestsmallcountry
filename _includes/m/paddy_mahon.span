@@ -1,0 +1,14 @@
+<span class="microdata" itemscope itemtype="http://schema.org/Person">
+	{{ include.content }}
+	<span itemprop="name">Paddy Mahon</span>
+	<span itemprop="givenName">Paddy</span>
+	<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+		<span itemprop="streetAddress">Great Water Street</span>
+		<span itemprop="addressLocality">Longford</span>
+		<span itemprop="addressRegion">Co. Longford</span>
+		<span itemprop="postalCode">N39 NH56</span>
+		<span itemprop="addressCountry">Ireland</span>
+	</span>
+    <span itemprop="url">https://ie.linkedin.com/in/paddy-mahon-7880829</span>
+
+</span>

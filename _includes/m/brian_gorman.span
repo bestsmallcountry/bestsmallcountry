@@ -9,6 +9,7 @@
 	<span itemprop="owns">
 		<span itemscope itemtype="http://schema.org/LocalBusiness">
 			<span itemprop="name">Lough Rynn Gatehouse Bed and Breakfast</span>
+			<span itemprop="alternateName">Lough Rynn Gatehouse B&B</span>
 			<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 				<span itemprop="streetAddress">Rynn</span>
 				<span itemprop="addressLocality">Mohill</span>

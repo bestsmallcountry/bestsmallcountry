@@ -1,0 +1,26 @@
+<span class="microdata" itemscope itemtype="http://schema.org/Person">
+	{{ include.content }}
+	<span itemprop="name">Padraig Loughrey</span>
+	<span itemprop="givenName">Padraig</span>
+	<span itemprop="familyName">Loughrey</span>
+		<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+		<span itemprop="streetAddress">Clonee</span>
+		<span itemprop="addressLocality">Killoe</span>
+		<span itemprop="addressRegion">Co. Longford</span>
+		
+		<span itemprop="addressCountry">Ireland</span>
+		<span itemprop="telephone">043 3342493</span>
+		<span itemprop="telephone">086 1701519</span>
+	</span>
+    <span itemprop="url">https://www.facebook.com/padraig.loughrey.18</span>
+    <span itemprop="url">https://ie.linkedin.com/in/padraig-loughrey-6b70a73a</span>
+    
+	<span itemprop="owns">
+		{% include m/loughreys_pharmacy.span content="Loughreys Pharmacy" %}
+	</span>
+
+	<span itemprop="memberOf">
+		{% include m/longford_county_council.span content="Longford County Council" %}
+	</span>
+
+</span>

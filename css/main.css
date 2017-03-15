@@ -205,6 +205,10 @@ site-footer p { text-align: center; }
 pre { clear: both; }
 .hide { visibility: hidden; }
 
+.strike {
+	text-decoration: line-through;
+}
+
 * .blog_date { color: gray; }
 * .blog_category { text-align: left; font-weight: bolder; }
 * .blog_source { text-align: right; font-style: italic; }

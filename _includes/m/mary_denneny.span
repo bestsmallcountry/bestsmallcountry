@@ -1,0 +1,20 @@
+<span class="microdata" itemscope itemtype="http://schema.org/Person">
+	{{ include.content }}
+	<span itemprop="name">Mary Sheridan Denneny</span>
+	<span itemprop="givenName">Mary</span>
+	<span itemprop="familyName">Denneny</span>
+	<span itemprop="jobTitle">Duty Manager</span>
+	<span itemprop="telephone">086 070619</span>
+	<span itemprop="url">https://www.facebook.com/mary.denneny</span>
+	<span itemprop="url">https://www.facebook.com/public/Mary-Sheridan-Denneny</span>
+	<span itemprop="url">http://sometag.com/account/marydenneny/4739087077/</span>
+
+	<span itemprop="knows">
+		{% include m/david_sheridan.span content="David Sheridan" %}
+	</span>
+
+	<span itemprop="worksFor">
+		{% include m/longford_sports_and_leisure.span content="Longford Sports and Leisure Centre" %}
+	</span>
+
+</span>

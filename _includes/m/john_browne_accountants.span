@@ -1,0 +1,12 @@
+<span class="microdata" itemscope itemtype="http://schema.org/LocalBusiness">
+	<span itemprop="name">John Browne Accountants</span>
+	<span itemprop="address">Leader House, Leader Park, Glack, Longford, Co. Longford, Ireland</span>
+	<span itemprop="url">http://john-browne.accountants.business-services.longford.tel</span>
+	
+	<span itemprop="image">https://s3-eu-west-1.amazonaws.com/whoismytd/people/avatars/000/043/031/small/john-browne.jpg</span>
+	<span itemprop="priceRange">0</span>
+	<span itemprop="telephone">(043)3346600</span>
+	<span itemprop="hasMap">
+https://www.google.ie:443/maps/place/John+Browne+%26+Company+Accountants/@53.7246953,-7.7892308,15z
+	</span>
+</span>
