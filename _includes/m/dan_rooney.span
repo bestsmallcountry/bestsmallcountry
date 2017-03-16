@@ -5,6 +5,7 @@
 	<span itemprop="familyName">Rooney</span>
 	<span itemprop="telephone">(043)3341470</span>
 	<span itemprop="address">Knockahaw, Dublin Road, Longford</span>
+	<span itemprop="url">https://ie.linkedin.com/in/dan-rooney-23291431</span>
 
 	<span itemprop="worksFor">
 		{% include m/longford_town_council.span content="Longford Town Council" %}
