@@ -16,7 +16,7 @@
 		{% include m/scoil_eimear.span content="Scoil Eimear" %}
 	</span>
 
-	<span itemprop="memberOf">
+	<span itemprop="affiliation">
 		{% include m/longford_swimming_club.span content="Longford Swimming Club" %}
 	</span>
 

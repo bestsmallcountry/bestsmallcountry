@@ -1,4 +1,4 @@
-<span class="microdata" itemscope itemtype="http://schema.org/Person">
+<span class="microdata" itemscope itemtype="http://schema.org/Organization">
 	{{ include.content }}
 	<span itemprop="name">Longford County Library</span>
 	<span itemprop="description">Longford County Library</span>

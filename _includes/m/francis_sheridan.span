@@ -1,0 +1,19 @@
+<span class="microdata" itemscope itemtype="http://schema.org/Person">
+	{{ include.content }}
+	<span itemprop="name">Francis Sheridan</span>
+	<span itemprop="alternateName">Frank Sheridan</span>
+	<span itemprop="givenName">Francis</span>
+	<span itemprop="familyName">Sheridan</span>
+	<span itemprop="url">https://www.facebook.com/ThePhoenixMagazine/posts/793100590707225</span>
+	<span itemprop="url">https://twitter.com/thephoenixmag/status/425221171408142337</span>
+	
+
+	<span itemprop="worksFor">
+		{% include m/longford_county_council.span content="Longford County Council" %}
+	</span>
+
+	<span itemprop="colleague">
+		{% include m/dan_rooney.span content="Dan Rooney" %}
+	</span>
+
+</span>

@@ -1,6 +1,6 @@
 <span class="microdata" itemscope itemtype="http://schema.org/GovernmentOrganization">
 	{{ include.content }}
-	<span lang="en-ie" itemprop="name">An Gárda Síochana</span>
+	<span itemprop="name">An Garda Siochana</span>
 	<span itemprop="url">http://garda.ie/</span>
 	<span itemprop="description">The Irish Police Force</span>
 	<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">

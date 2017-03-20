@@ -14,8 +14,4 @@
 	<span itemprop="faxNumber">(01)6395674</span>
 	<span itemprop="faxNumber">(01)6395676</span>
 
-	<span itemprop="memberOf">
-		{% include m/gov_ie.span content="The Irish State" %}
-	</span>
-
 </span>

@@ -5,13 +5,8 @@
 	<span itemprop="familyName">Hall</span>
 	<span itemprop="url">https://www.facebook.com/barry.hall.14</span>
 
-	<span itemprop="memberOf">
+	<span itemprop="affiliation">
 		{% include m/longford_swimming_club.span content="Longford Swimming Club" %}
-	</span>
-
-
-	<span itemprop="knows">
-		{% include m/janet_mcweeney.span content="Barry Hall" %}
 	</span>
 
 </span>

@@ -1,4 +1,4 @@
-<span itemscope itemtype="http://schema.org/Organization">
+<span class="microdata" itemscope itemtype="http://schema.org/Organization">
 	{{ include.content }}
 	<span itemprop="name">Longford Swimming Club</span>
 	<span itemprop="address">The Mall, Longford, Ireland</span>
