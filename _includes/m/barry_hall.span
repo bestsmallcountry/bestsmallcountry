@@ -4,6 +4,7 @@
 	<span itemprop="givenName">Barry</span>
 	<span itemprop="familyName">Hall</span>
 	<span itemprop="url">https://www.facebook.com/barry.hall.14</span>
+	<span itemprop="url">https://www.facebook.com/AbbeyHotelRoscommon/photos/a.420038161948.198343.356125341948/10153597748681949</span>
 
 	<span itemprop="affiliation">
 		{% include m/longford_swimming_club.span content="Longford Swimming Club" %}

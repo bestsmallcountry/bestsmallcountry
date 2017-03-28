@@ -1,4 +1,4 @@
-<span itemscope itemtype="http://schema.org/Person">
+<span class="microdata" itemscope itemtype="http://schema.org/Person">
 	{{ include.content }}
 	<span itemprop="url">https://ie.linkedin.com/in/mmcweeney</span>
 	<span itemprop="name">Mel McWeeney</span>

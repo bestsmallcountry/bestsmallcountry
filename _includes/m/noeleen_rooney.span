@@ -1,6 +1,6 @@
-<span itemscope itemtype="http://schema.org/Person">
+<span class="microdata" itemscope itemtype="http://schema.org/Person">
 	{{ include.content }}
-	<span itemprop="name">Noeleen Rooney
+	<span itemprop="name">Noeleen Rooney</span>
 	<span itemprop="givenName">Noeleen</span>
 	<span itemprop="familyName">Rooney</span>
 	<span itemprop="telephone">(043)3341470</span>

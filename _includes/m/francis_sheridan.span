@@ -12,8 +12,8 @@
 		{% include m/longford_county_council.span content="Longford County Council" %}
 	</span>
 
-	<span itemprop="colleague">
-		{% include m/dan_rooney.span content="Dan Rooney" %}
-	</span>
+
+
+
 
 </span>

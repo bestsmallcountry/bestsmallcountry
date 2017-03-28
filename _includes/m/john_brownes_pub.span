@@ -1,4 +1,5 @@
 <span class="microdata" itemscope itemtype="http://schema.org/LocalBusiness">
+	{{ include.content }}
 	<span itemprop="name">John Browne's Pub</span>
 	<span itemprop="address">Market Square, Longford, Co. Longford, Ireland</span>
 	<span itemprop="url">https://www.facebook.com/pages/John-Brownes-Pub/270639956384283</span>

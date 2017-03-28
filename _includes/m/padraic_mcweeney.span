@@ -1,4 +1,4 @@
-<span itemscope itemtype="http://schema.org/Person">
+<span class="microdata" itemscope itemtype="http://schema.org/Person">
 	{{ include.content }}
 	<span itemprop="name">Padraic McWeeney</span>
 	<span itemprop="givenName">Padraic</span>

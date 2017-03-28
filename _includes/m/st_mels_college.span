@@ -1,4 +1,4 @@
-<span itemscope itemtype="http://schema.org/EducationalOrganization">
+<span class="microdata" itemscope itemtype="http://schema.org/EducationalOrganization">
 	{{ include.content }}
 	<span itemprop="address">Longford, Ireland</span>
 	<span itemprop="url">http://stmelscollege.ie</span>

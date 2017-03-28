@@ -1,4 +1,4 @@
-<span itemscope itemtype="http://schema.org/GovernmentOrganization">
+<span class="microdata" itemscope itemtype="http://schema.org/GovernmentOrganization">
 	{{ include.content }}
 	<span itemprop="name" lang="en-ie">Dáil Éireann</span>
 	<span itemprop="url">http://gov.ie/</span>

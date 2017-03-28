@@ -1,4 +1,5 @@
-<span itemscope itemtype="http://schema.org/LocalBusiness">
+<span class="microdata" itemscope itemtype="http://schema.org/LocalBusiness">
+	{{ include.content }}
 	<span itemprop="name">Ship My Tri Bike</span>
 	<span itemprop="address">Suite 17, Redleaf House, Townspark, Co. Longford, Ireland</span>
 	<span itemprop="url">http://shipmytribike.ie/></span>

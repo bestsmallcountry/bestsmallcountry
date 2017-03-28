@@ -1,4 +1,5 @@
-<span itemscope itemtype="http://schema.org/GovernmentOrganization">
+<span class="microdata" itemscope itemtype="http://schema.org/GovernmentOrganization">
+	{{ include.content }}
 	<span itemprop="name">Longford Town Council</span>
 	<span itemprop="url">http://www.longfordcoco.ie/longfordtowncouncil.htm</span>
 	<span itemprop="description">Longford Town Council</span>

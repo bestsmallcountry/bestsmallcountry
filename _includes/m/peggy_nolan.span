@@ -19,4 +19,8 @@
 	<span itemprop="url">https://irishelectionliterature.files.wordpress.com/2014/04/peggynolan2.jpg</span>
 	<span itemprop="url">http://www.whoismytd.com/person/peggy-nolan</span>
 
+	<span itemprop="worksFor">
+		{% include m/longford_county_council.span content="Longford County Council" %}
+	</span>
+
 </span>

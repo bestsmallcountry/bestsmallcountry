@@ -1,4 +1,5 @@
 <span class="microdata" itemscope itemtype="http://schema.org/LocalBusiness">
+	{{ include.content }}
 	<span itemprop="name">Loughrey's Pharmacy</span>
 	<span itemprop="address">20, Dublin Street, Longford, Co. Longford, Ireland</span>
 	<span itemprop="url">http://loughreyspharmacy.com</span>

@@ -187,7 +187,8 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .content { visibility: visible; display: inline; }
 
 aside * { text-transform: capitalize; }
-post-meta { text-decoration: none; }
+.post-meta { text-decoration: none; }
+
 nav > h2 { display: none; color: lightgray; }
 .page-content > .wrapper > h1 { display: none; color: lightgray; }
 aside > h1 { display: none; color: lightgray; }

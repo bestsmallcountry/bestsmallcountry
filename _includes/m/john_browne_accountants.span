@@ -1,4 +1,5 @@
 <span class="microdata" itemscope itemtype="http://schema.org/LocalBusiness">
+	{{ include.content }}
 	<span itemprop="name">John Browne Accountants</span>
 	<span itemprop="address">Leader House, Leader Park, Glack, Longford, Co. Longford, Ireland</span>
 	<span itemprop="url">http://john-browne.accountants.business-services.longford.tel</span>
