@@ -1,9 +1,13 @@
 <span class="microdata" itemscope itemtype="http://schema.org/GovernmentOrganization">
 	{{ include.content }}
 	<span itemprop="name">Office of the Ombudsman</span>
+	<span itemprop="alternateName">Irish Office of the Ombudsman</span>
+	<span itemprop="alternateName">The Irish Ombudsman</span>
 	<span itemprop="alternateName">Office of the Information Commissioner</span>
 	<span itemprop="alternateName">Standards in Public Office Commission</span> 
-	<a itemprop="url" href="http://ombudsman.gov.ie/"></a>
+	<span itemprop="url">http://ombudsman.gov.ie/</span>
+	<span itemprop="url">https://twitter.com/officeombudsman</span>
+	<span itemprop="url>https://www.linkedin.com/company/office-of-the-ombudsman-ireland</span>
 	<span itemprop="description">Investigates complaints about public officials.</span>
 
 	<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">

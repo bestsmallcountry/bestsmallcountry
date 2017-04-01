@@ -14,14 +14,4 @@
 	<span itemprop="email">longfordsportscentre@eircom.net</span>
 	<span itemprop="image">http://longfordsportsandleisure.ie/other/images/building_sm.jpg</span>
 	<span itemprop="priceRange">1</span>
-
-
-	<span itemprop="alumni">
-		{% include m/david_sheridan.span content="David Sheridan" %}
-	</span>	
-
-	<span itemprop="alumni">
-		{% include m/barry_hall.span content="Barry Hall" %}
-	</span>	
-	
 </span>

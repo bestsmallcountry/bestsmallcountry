@@ -6,7 +6,7 @@
 	<span itemprop="jobTitle">Manager</span>
 
 	<span itemprop="knows">
-		{% include m/janet_mcweeney.span content="Barry Hall" %}
+		{% include m/janet_mcweeney.span content="Janet McWeeney" %}
 	</span>
 
 	<span itemprop="knows">

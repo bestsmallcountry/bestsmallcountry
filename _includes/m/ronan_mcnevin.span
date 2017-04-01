@@ -15,9 +15,5 @@
 	<span itemprop="knows">
 		{% include m/janet_mcweeney.span content="Janet McWeeney" %}
 	</span>
-	
-	<span itemprop="knows">
-		{% include m/padraic_mcweeney.span content="Padraic McWeeney" %}
-	</span>
 
 </span>
