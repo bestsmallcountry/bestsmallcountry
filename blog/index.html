@@ -6,21 +6,7 @@ description: A personal account of dealings with Irish officialdom.
 <div class="home">
 
 <div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">&lt;</a>
-  {% else %}
-    <span class="previous">&lt;</span>
-  {% endif %}
-
-	{% include page_navigation.html %}
-<!--
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
--->
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">&gt;</a>
-  {% else %}
-    <span class="next ">&gt;</span>
-  {% endif %}
+{% include page_navigation.html %}
 
 {% assign img_width = "50" %}
 
