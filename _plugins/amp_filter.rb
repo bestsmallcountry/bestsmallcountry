@@ -7,8 +7,7 @@ module Jekyll
     # Converts elements to 'amp-img' and adds additional attributes
     # Parameters:
     #   input       - the content of the post
-    #   responsive  - boolean, whether to add layout=responsive, 
-    #                 true by default
+    #   responsive  - boolean, whether to add layout=responsive, true by default
     def amp_images(input, responsive = true, wi = nil, he = nil)
       doc = Nokogiri::HTML.fragment(input);
       # Add width and height to img elements lacking them
@@ -20,16 +19,13 @@ module Jekyll
           if image['src'].start_with?('http://', 'https://')
             src = image['src']
           else
-            # FastImage doesn't seem to handle local paths when used 
-            # with Jekyll, so let's just force the path
+            # FastImage doesn't seem to handle local paths when used with Jekyll
+            # so let's just force the path
             src = File.join(Dir.pwd, '_site', image['src'])
           end
           # Jekyll generates static assets after the build process.
-          # This causes problems when trying to determine the 
-          # dimensions of a locally stored image.
-          # For now, the only solution is to skip the build and 
-          # generate the AMP files after the site has beem successfully
-          # built.
+          # This causes problems when trying to determine the dimensions of a locally stored image.
+          # For now, the only solution is to skip the build and generate the AMP files after the site has beem successfully built.
           # TODO: find a better solution.
           begin
             size = FastImage.size(src)

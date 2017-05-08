@@ -20,11 +20,11 @@ gem "minima", "~> 2.0"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-	gem 'jekyll-compose', group: [:jekyll_plugins]
-   gem "jekyll-feed", "~> 0.6"
-   gem "jekyll-sitemap", "~> 1.0"
-   gem "jekyll-paginate", "~> 1.1"
-   gem "jekyll-amp"
-   gem "nokogiri"
-   gem "fastimage"
+  gem 'jekyll-compose', group: [:jekyll_plugins]
+  gem "jekyll-feed", "~> 0.6"
+  gem "jekyll-sitemap", "~> 1.0"
+  gem "jekyll-paginate", "~> 1.1"
+  gem "amp-jekyll"
+  gem "nokogiri"
+  gem "fastimage"
 end

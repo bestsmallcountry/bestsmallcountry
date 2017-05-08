@@ -42,9 +42,9 @@ gems:
   - jekyll-feed
 # - jekyll-sitemap
   - jekyll-paginate
-# - jekyll-amp
-# - nokogiri
-# - fastimage
+  - amp-jekyll
+  - nokogiri
+  - fastimage
 
 # limit_posts: 10
 paginate: 10
@@ -57,3 +57,6 @@ exclude:
   - .sass-cache
   - CNAME
   - LICENSE
+
+# Google Services
+google_analytics: UA-97984664-1
