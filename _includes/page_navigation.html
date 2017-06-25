@@ -1,7 +1,17 @@
+	{% if paginator.page > 2 %}
+		<a href="/blog" class="previous">
+			<img src="/images/svg/ll.svg" alt="newest">
+		</a>
+	{% else %}
+			<img src="/images/svg/else.svg" alt="newer">
+	{% endif %}
+
 	{% if paginator.previous_page %}
 		<a href="{{ paginator.previous_page_path }}" class="previous">
 			<img src="/images/svg/l.svg" alt="newer">
 		</a>
+	{% else %}
+			<img src="/images/svg/else.svg" alt="newer">
 	{% endif %}
 
 	<span class="page_number ">
@@ -12,5 +22,14 @@
 		<a href="{{ paginator.next_page_path }}" class="next">
 			<img src="/images/svg/r.svg" alt="older">
 		</a>
+	{% else %}
+			<img src="/images/svg/else.svg" alt="newer">
 	{% endif %}
-
+	
+	{% if paginator.page < paginator.total_pages - 2 %}
+		<a href="/blog/page{{ paginator.total_pages }}" class="previous">
+			<img src="/images/svg/rr.svg" alt="oldest">
+		</a>
+	{% else %}
+			<img src="/images/svg/else.svg" alt="oldest">
+	{% endif %}
