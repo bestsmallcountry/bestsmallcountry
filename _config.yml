@@ -15,7 +15,7 @@ title: Best Small Country
 email: bestsmallcountry.ie@gmail.com
 description: The Best Small Country in the World
 # baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "http://bestsmallcountry.ie" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://bestsmallcountry.ie" # the base hostname & protocol for your site
 logo: images/sitelogo.png
 video: video/vid_20160327_194333.mp4 
 # twitter_username: jekyllrb
@@ -60,3 +60,4 @@ exclude:
 
 # Google Services
 google_analytics: UA-97984664-1
+
