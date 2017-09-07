@@ -163,9 +163,6 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .post-list { margin-left: 0; list-style: none; }
 .post-list > li { margin-bottom: 30px; }
-
-/* .post-meta { font-size: 14px; color: #828282; } */
-
 .post-link { display: block; font-size: 24px; }
 
 /** Posts */
@@ -187,7 +184,8 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .content { visibility: visible; display: inline; }
 
 aside * { text-transform: capitalize; }
-.post-meta { text-decoration: none; }
+/* .post-meta { text-decoration: none; color: black; } */
+.blog_source { color: orange; }
 
 nav > h2 { display: none; color: lightgray; }
 .page-content > .wrapper > h1 { display: none; color: lightgray; }

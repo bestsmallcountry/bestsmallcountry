@@ -105,7 +105,9 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .post-list > li { margin-bottom: 30px; }
 
 .post-meta { font-size: 14px; color: green; }
-
+.blog_date { color: black; font-weight: lighter; }
+.blog_category { font-weight: bolder; font-size: larger; }
+.blog_source { color: black; font-weight: lighter; }
 .post-link { display: block; font-size: 24px; color: green; }
 
 /** Posts */
@@ -144,3 +146,5 @@ site-footer p { text-align: center; }
 #share-buttons { float: right; }
 pre { clear: both; }
 .hide { visibility: hidden; }
+em { font-weight:  bold; }
+mark { color: red; }

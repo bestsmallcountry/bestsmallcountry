@@ -3,24 +3,26 @@ layout: default
 title: Blog
 description: A personal account of dealings with Irish officialdom.
 ---
-
-<h2>Garda</h2>
-
-
-
 <div class="home">
-
+<h2>Longford County Council CV</h2>
+<iframe width="640" height="360" 
+src="https://www.youtube.com/embed/labce7m358M" 
+ allowfullscreen></iframe>
+<p>To understand the dynamic of how councils operate, buy <a 
+href="https://www.selfpublishbooks.ie/abuse-of-power-because-councils-can-by-julie-grace/" >
+this book</a> .</p>
+<br /><h2>Details</h2>
 <ul class="post-list">
 	{% for post in site.posts %}
-	{% if post.category contains "Garda " %}
+	{% if post.category contains "Longford County Council" %}
     <li>
 	<span>
-		<!-- <div> --> <br />
+		<div>
 			<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}
 			{{ post.category }}: {{ post.source }}</span>
-		<!-- </div> --> <br />
+		</div>
 		<span>
-    		<img src="/images/svg/garda.svg" alt="Garda Logo" height="50" width="50" >
+    		<img src="/images/svg/longfordcoco.svg" alt="Longford Co. Co. Logo" height="50" width="50" >
 			<a href="{{ post.url }}">{{ post.title }}</a>
 		</span>
 	</span>
