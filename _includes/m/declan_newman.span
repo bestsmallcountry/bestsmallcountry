@@ -4,4 +4,7 @@
 	<span itemprop="givenName">Declan</span>
 	<span itemprop="familyName">Newman</span>
 	<span itemprop="url">https://www.facebook.com/declan.newman.3</span>
+	<span itemprop="knows">
+		{% include m/david_sheridan.span content="" %}
+	</span>
 </span>

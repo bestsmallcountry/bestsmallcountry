@@ -1,5 +1,5 @@
 <span class="microdata" itemscope itemtype="http://schema.org/GovernmentOrganization">
-	{{ include.content }}
+
 	<span itemprop="name">Office of the Ombudsman</span>
 	<span itemprop="alternateName">Irish Office of the Ombudsman</span>
 	<span itemprop="alternateName">The Irish Ombudsman</span>

@@ -1,0 +1,10 @@
+<span class="microdata" itemscope itemtype="http://schema.org/Person">
+	{{ include.content }}
+	<span itemprop="name">Peter Tyndall</span>
+	<span itemprop="givenName">Peter</span>
+	<span itemprop="familyName">Tyndall</span>
+	<span itemprop="worksFor">
+		{% include m/office_of_the_ombudsman.span content="Office of the Ombudsman" %}
+	</span>
+
+</span>

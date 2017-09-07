@@ -1,0 +1,10 @@
+<span class="microdata" itemscope itemtype="http://schema.org/Person">
+	{{ include.content }}
+	<span itemprop="name">Danny Smith</span>
+	<span itemprop="givenName">Danny</span>
+	<span itemprop="familyName">Smith</span>
+	<span itemprop="email">danny.smith@ombudsman.gov.ie</span>
+	<span itemprop="colleague">
+		{% include m/peter_tyndall.span content="Peter Tyndall" %}
+	</span>
+</span>
