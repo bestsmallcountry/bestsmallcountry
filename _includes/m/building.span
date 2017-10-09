@@ -1,0 +1,7 @@
+<span itemscope itemtype="http://schema.org/{{ include.building }}">
+    <span itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
+        <meta itemprop="latitude" content="{{ include.lat }}" />
+        <meta itemprop="longitude" content="{{ include.lon }}" />
+        <span itemprop="url">https://www.google.ie/maps/@{{ include.lat }},{{ include.lon }},{{ include.img }}/data={{ include.data }}</span>
+    </span>
+</span>

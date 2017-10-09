@@ -5,6 +5,9 @@
 	<span itemprop="familyName">Gorman</span>
 	<span itemprop="jobTitle">Carpenter, Joiner</span>
     <span itemprop="url">https://www.facebook.com/brian.gorman.129</span>
+    <span itemprop="image">http://bestsmallcountry.ie/images/sitelogo.png</span>
+    <span itemprop="image">http://bestsmallcountry.ie/video/vid_20160327_194333.png</span>
+    <span itemprop="image">https://scontent.fdub1-2.fna.fbcdn.net/v/t1.0-1/p160x160/12038189_515237341975538_7155424719384826333_n.jpg?oh=da0f09c04edc2207ed3e2b54e1134be2&oe=5A792841</span>
     
 	<span itemprop="owns">
 		<span itemscope itemtype="http://schema.org/LocalBusiness">
@@ -21,7 +24,16 @@
 			<span itemprop="hasMap">
 		https://www.google.ie/maps/@53.904477,-7.850177,17z
 			</span>
-			<span itemprop="image">http://scontent-lhr3-1.xx.fbcdn.net/v/t1.0-1/p160x160/12038189_515237341975538_7155424719384826333_n.jpg?oh=fa73540ff482996ba55ab3ed3823e559&oe=59153341</span>
+			
+			<span itemprop="image">https://media-cdn.tripadvisor.com/media/photo-s/10/61/68/ab/lough-rynn-gatehouse.jpg</span>
+			<span itemprop="image">https://media-cdn.tripadvisor.com/media/photo-f/08/46/f8/e2/lough-rynn-gatehouse.jpg</span>
+			<span itemprop="image">https://media-cdn.tripadvisor.com/media/photo-w/10/61/68/41/b-b-grounds.jpg</span>
+			<span itemprop="image">https://media-cdn.tripadvisor.com/media/photo-s/10/61/68/89/outdoor-dining-area-covered.jpg</span>
+			<span itemprop="image">https://media-cdn.tripadvisor.com/media/photo-s/10/61/68/96/hall.jpg</span>
+			<span itemprop="image">https://media-cdn.tripadvisor.com/media/photo-s/10/61/68/9e/lough-rynn-gatehouse.jpg</span>
+			<span itemprop="image">https://media-cdn.tripadvisor.com/media/photo-s/10/61/68/a5/lough-rynn-gatehouse.jpg</span>
+			<span itemprop="image">https://media-cdn.tripadvisor.com/media/photo-s/10/61/7a/28/b-b-grounds.jpg</span>
+			
 			<span itemprop="priceRange">50</span>
 		</span>
 	</span>

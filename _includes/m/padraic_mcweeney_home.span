@@ -1,0 +1,6 @@
+<span itemscope itemtype="http://schema.org/Residence">
+  <div itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
+    <meta itemprop="latitude" content="53.7591374" />
+    <meta itemprop="longitude" content="-7.7882166" />
+  </div>
+</span>

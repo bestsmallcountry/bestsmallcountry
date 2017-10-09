@@ -1,0 +1,32 @@
+<span class="microdata" itemscope itemtype="http://schema.org/Person">
+	{{ include.content }}
+	<span itemprop="name">Robert Troy</span>
+	<span itemprop="givenName">Robert</span>
+	<span itemprop="familyName">Troy</span>
+		<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+		<span itemprop="streetAddress">The Manse, Castle Street</span>
+		<span itemprop="addressLocality">Mullingar</span>
+		<span itemprop="addressRegion">Co. Westmeath</span>
+		
+		<span itemprop="addressCountry">Ireland</span>
+	</span>
+	<span itemprop="telephone">044 9334857</span>
+	<span itemprop="telephone">01 6184059</span>
+	<span itemprop="telephone">087 7979890</span>
+	<span itemprop="url">http://www.roberttroy.ie/</span>
+    <span itemprop="url">https://www.facebook.com/robert.troy.98</span>
+    <span itemprop="url">https://www.facebook.com/roberttroytd/</span>
+    <span itemprop="url">https://twitter.com/roberttroytd</span>
+	<span itemprop="email">robert.troy@oireachtas.ie</span>
+	
+	<span itemprop="image">http://www.westmeathexaminer.ie/cache/e405eba0c17c2a1ecf11a892d49e13fe.jpg</span>
+	<span itemprop="image">http://cdn-03.herald.ie/news/article34449222.ece/dd3b8/AUTOCROP/w620/2016-02-13_new_16852477_I1.JPG</span>
+	<span itemprop="image">https://i.ytimg.com/vi/aJ-lb4dWY-I/0.jpg</span>
+	<span itemprop="image">http://www.irishexaminer.com/remote/media.central.ie/media/images/f/FiannaFailRobertTroy020516_large.jpg</span>
+	<span itemprop="image">http://cdn.extra.ie/wp-content/uploads/2017/01/Robert-Troy1.jpg</span>
+    <span itemprop="image">http://cdn-04.herald.ie/news/article31466701.ece/5039b/AUTOCROP/w620/2015-08-21_new_12151376_I1.JPG</span>
+
+
+     {% include m/building.span building="Residence" lat="53.526829" lon="-7.3401418" img="3a,37.5y,90h,90t" data="!3m7!1e1!3m5!1sfxoUnTuwSt14ZczPlQ5rvw!2e0!6s%2F%2Fgeo0.ggpht.com%2Fcbk%3Fpanoid%3DfxoUnTuwSt14ZczPlQ5rvw%26output%3Dthumbnail%26cb_client%3Dmaps_sv.tactile.gps%26thumb%3D2%26w%3D203%26h%3D100%26yaw%3D245.30336%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656" %}
+
+</span>

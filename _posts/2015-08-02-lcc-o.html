@@ -12,7 +12,9 @@ direction: o
 <a lang="ru">Кому</a>: john browne @gmail.com<br />
 </div>
 
-<p>Hi John</p>
+<p>Hi 
+{% include m/john_browne.span content="John" %}
+</p>
 
 <p>
 Thanks for talking to me earlier.  I'm in the process of transcribing this
@@ -22,7 +24,9 @@ you automatically if you unzip the archive.
 </p>
 
 <p>
-As I mentioned to you, I was refused admission by Barry Hall shortly after 2pm
+As I mentioned to you, I was refused admission by 
+{% include m/barry_hall.span content="Barry Hall" %}
+shortly after 2pm
 last Saturday, so there can't be any argument made that the grievance is
 &quot;historic&quot;, and as I mentioned, I got a letterhead to compare those currently
 on the board to those who voted to have my membership truncated back at the

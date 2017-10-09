@@ -147,4 +147,4 @@ site-footer p { text-align: center; }
 pre { clear: both; }
 .hide { visibility: hidden; }
 em { font-weight:  bold; }
-mark { color: red; }
+mark { color: red; background: white; }

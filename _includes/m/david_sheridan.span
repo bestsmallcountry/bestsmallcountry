@@ -7,6 +7,14 @@
     <span itemprop="url">http://shipmytribike.ie/</span>
     <span itemprop="url">https://ie.linkedin.com/in/david-sheridan-2b814968</span>
     
+    <span itemprop="url">https://pbs.twimg.com/media/CQYjh1VWoAAeeYP.jpg</span>
+    <span itemprop="url">AAEAAQAAAAAAAAO0AAAAJDA5MmNlZmUyLWExNTMtNDQ4OC05ZmE0LWJkNzAyMjU3MDg5Mg.jpg</span>
+    <span itemprop="url">http://www.ibye.ie/wp-content/uploads/2015/10/LEO-MN-9047-David-Sheridan.jpg</span>
+    <span itemprop="url">https://pbs.twimg.com/media/BQUsuPhCcAEdouc.jpg</span>
+    <span itemprop="url">http://www.longfordleader.ie/resizer/750/563/true/imported_images/20211af4fb26835f8a81661d70985759.jpg--david_sheridan_of_ship_my_tri_bike_.jpg</span>
+    
+    {% include m/building.span building="Residence" lat="53.6568111" lon="-7.7084984" img="3a,75y,90h,78.95t" data="!3m6!1e1!3m4!1sqbxu3-iUb9chDfH3CJAVfQ!2e0!7i13312!8i6656" %}
+
 	<span itemprop="owns">
 		{% include m/ship_my_tri_bike.span content="Ship My Tri Bike" %}
 	</span>

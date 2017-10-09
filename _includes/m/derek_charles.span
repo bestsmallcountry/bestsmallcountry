@@ -1,0 +1,14 @@
+<span class="microdata" itemscope itemtype="http://schema.org/Person">
+	{{ include.content }}
+	<span itemprop="name">Derek Charles</span>
+	<span itemprop="givenName">Derek</span>
+	<span itemprop="familyName">Charles</span>
+	
+    <span itemprop="telephone">(01) 6395707</span>
+    <span itemprop="telephone">(01) 6395627</span>
+	<span itemprop="url">https://www.linkedin.com/in/derek-charles-71aa6897/</span>
+	<span itemprop="url">http://www.ahcps.ie/Branch_Committees/Default.140.html</span>
+	<span itemprop="colleague">
+		{% include m/peter_tyndall.span content="Peter Tyndall" %}
+	</span>
+</span>

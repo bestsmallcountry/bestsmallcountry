@@ -17,7 +17,14 @@
 	<span itemprop="email">peggynolan@eircom.net</span>
 
 	<span itemprop="url">https://irishelectionliterature.files.wordpress.com/2014/04/peggynolan2.jpg</span>
-	<span itemprop="url">http://www.whoismytd.com/person/peggy-nolan</span>
+	<span itemprop="url">https://farm3.staticflickr.com/2878/33314151604_539b43d311_b.jpg</span>
+	<span itemprop="url">http://www.longfordleader.ie/resizer/750/563/true/imported_images/2ba68f93d5bb6891ed470e659a63e069.jpg--cllr_peggy_nolan__photo__michelle_ghee__www_gphotos_ie.jpg</span>
+
+     {% include m/building.span building="Residence" lat="53.7366758" lon="-7.8042365" img="3a,75y,238h,90t" data="!3m7!1e1!3m5!1sxgNpoP9BIdgOpEqr1jjSNQ!2e0!6s%2F%2Fgeo0.ggpht.com%2Fcbk%3Fpanoid%3DxgNpoP9BIdgOpEqr1jjSNQ%26output%3Dthumbnail%26cb_client%3Dsearch.TACTILE.gps%26thumb%3D2%26w%3D96%26h%3D64%26yaw%3D238.87279%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656" %}
+
+    <span itemprop="knows">
+        {% include m/robert_troy.span content="Robert Troy" %}
+    </span>
 
 	<span itemprop="worksFor">
 		{% include m/longford_county_council.span content="Longford County Council" %}

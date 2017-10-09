@@ -15,6 +15,13 @@
     <span itemprop="url">https://www.facebook.com/padraig.loughrey.18</span>
     <span itemprop="url">https://ie.linkedin.com/in/padraig-loughrey-6b70a73a</span>
     
+    <span itemprop="url">http://www.longfordleader.ie/resizer/750/563/true/GN4_DAT_7174066.jpg--.jpg</span>
+    <span itemprop="url">https://www.fiannafail.ie/wp-content/uploads/2015/07/Cllr.-Padraig-Loughrey.jpg</span>
+    <span itemprop="url">https://pbs.twimg.com/media/Bof7sItIIAAWrNQ.jpg</span>
+    <span itemprop="url">http://www.longfordleader.ie/resizer/750/563/true/GN4_DAT_7314718.jpg--.jpg</span>
+    <span itemprop="url">https://farm3.staticflickr.com/2853/34156834895_74ebf38c64_b.jpg</span>
+    
+    
 	<span itemprop="owns">
 		{% include m/loughreys_pharmacy.span content="Loughreys Pharmacy" %}
 	</span>

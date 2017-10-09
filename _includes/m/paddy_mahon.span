@@ -10,7 +10,9 @@
 		<span itemprop="addressCountry">Ireland</span>
 	</span>
     <span itemprop="url">https://ie.linkedin.com/in/paddy-mahon-7880829</span>
+    
 	<span itemprop="url">http://www.longfordcoco.ie/images_upload/LongfordCoCo/Your-Council/Management-Team/Paddy-Mahon.jpg</span>
+	<span itemprop="url">https://farm3.staticflickr.com/2878/33314151604_539b43d311_b.jpg</span>
 
 	<span itemprop="worksFor">
 		{% include m/longford_county_council.span content="Longford County Council" %}

@@ -4,7 +4,12 @@
 	<span itemprop="givenName">Barry</span>
 	<span itemprop="familyName">Hall</span>
 	<span itemprop="url">https://www.facebook.com/barry.hall.14</span>
-	<span itemprop="url">https://www.facebook.com/AbbeyHotelRoscommon/photos/a.420038161948.198343.356125341948/10153597748681949</span>
+	<span itemprop="email">hall.barry23@gmail.com</span>
+    
+    <span itemprop="image">https://pbs.twimg.com/media/CWlJefcWsAA-3V6.jpg</span>
+    <span itemprop="image">https://www.facebook.com/AbbeyHotelRoscommon/photos/a.420038161948.198343.356125341948/10153597748681949</span>
+    <span itemprop="image">https://uk.teamunify.com/recsilsc/UserFiles/Image/FullSizeRender1-338x450.jpg</span>
+    <span itemprop="image">https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4kk-qFMpsN-eIX3AQYzswBDc3smfxN99_CK9cWH8hgezkGUpt</span>
 
 	<span itemprop="affiliation">
 		{% include m/longford_swimming_club.span content="Longford Swimming Club" %}

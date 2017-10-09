@@ -1,0 +1,17 @@
+<span class="microdata" itemscope itemtype="http://schema.org/Person">
+	{{ include.content }}
+	<span itemprop="name">Siobhan Tighe</span>
+	<span itemprop="givenName">Siobhan</span>
+	<span itemprop="familyName">Tighe</span>
+	<span itemprop="email">info@coralleisure.ie</span>
+    <span itemprop="telephone">(01) 296 4222</span>
+	<span itemprop="url">https://twitter.com/siobhan_tighe</span>
+	<span itemprop="url">http://www.irelandactive.ie/index.cfm/page/ireland-active-_-the-voice-</span>
+	<span itemprop="url">https://www.duedil.com/director/701484936/siobh-n-tighe</span>
+	<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+		<span itemprop="streetAddress">Paradigm House, Dundrum Office Park,</span>
+		<span itemprop="addressLocality">Dundrum</span>
+		<span itemprop="addressRegion">Dublin 14</span>
+		<span itemprop="addressCountry">Ireland</span>
+	</span>
+</span>

@@ -4,6 +4,14 @@
 	<span itemprop="givenName">Aidan</span>
 	<span itemprop="familyName">Moore</span>
 	<span itemprop="email">aidan.moore@ombudsman.gov.ie</span>
+	<span itemprop="email">info@lobbying.ie</span>
+	<span itemprop="telephone">(01) 6395711</span>
+	<span itemprop="telephone">(087) 9175186</span>
+	<span itemprop="faxNumber">(01) 639 5684</span>
+	<span itemprop="url">https://twitter.com/aidanmmoore81</span>
+	<span itemprop="url">https://twicopy.org/aidanmmoore81/</span>
+	<span itemprop="url">https://www.lobbying.ie/</span>
+	<span itemprop="url">https://twitter.com/LobbyingIE</span>
 	<span itemprop="colleague">
 		{% include m/peter_tyndall.span content="Peter Tyndall" %}
 	</span>
