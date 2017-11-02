@@ -3,6 +3,10 @@
 	<span itemprop="name">Declan Newman</span>
 	<span itemprop="givenName">Declan</span>
 	<span itemprop="familyName">Newman</span>
+	
+    <span itemprop="image">http://longfordac.com/wp-content/uploads/2017/01/20170122_134220-1.jpg</span>
+    <span itemprop="image">https://4.bp.blogspot.com/-MfUxPzJ5sjs/VuqYmLXwKdI/AAAAAAAAAB8/5XGGSBs5u5I3w8GzVD3-qRUI1sSMXh30g/s1600/aecf9cd37cdf679521ca41b41ca294a5.jpg</span>
+ 	
 	<span itemprop="url">https://www.facebook.com/declan.newman.3</span>
 	<span itemprop="knows">
 		{% include m/david_sheridan.span content="" %}

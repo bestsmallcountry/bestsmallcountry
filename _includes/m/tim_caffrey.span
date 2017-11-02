@@ -1,0 +1,29 @@
+<span class="microdata" itemscope itemtype="http://schema.org/Person">
+	{{ include.content }}
+	<span itemprop="name">Tim Caffrey</span>
+	<span itemprop="givenName">Tim</span>
+	<span itemprop="familyName">Caffrey</span>
+		<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+		<span itemprop="streetAddress">Strandhill Road</span>
+		<span itemprop="addressLocality">Sligo</span>
+		<span itemprop="addressRegion">Co. Sligo</span>
+		<span itemprop="addressCountry">Ireland</span>
+	</span>
+
+    <span itemprop="image"></span>
+    <span itemprop="image"></span>
+    <span itemprop="image">http://www.sligotoday.ie/images/1446615518.jpg</span>
+    <span itemprop="image">http://www.sligotoday.ie/images/1382424281.jpg</span>
+    <span itemprop="image">https://img.rasset.ie/000b2a9d-800.jpg</span>
+    <span itemprop="url">http://www.sipo.ie/en/reports/investigation-reports/investigation-report-mr-tim-caffrey-chief-executive-longford-county-council/</span>
+    <span itemprop="url">https://www.rte.ie/news/2016/0712/801916-tim-caffrey-sipo/</span>
+    <span itemprop="url">http://www.irishexaminer.com/ireland/council-boss-gets-238k-despite-ethics-breach-390684.html</span>
+    <span itemprop="url">https://www.independent.ie/irish-news/politics/council-chief-hiked-price-of-home-days-after-grant-request-29696128.html</span>
+    <span itemprop="url"></span>
+    <span itemprop="url"></span>
+
+	<span itemprop="memberOf">
+		{% include m/longford_county_council.span content="Longford County Council" %}
+	</span>
+
+</span>
