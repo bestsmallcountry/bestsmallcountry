@@ -24,7 +24,7 @@
 
 	<span itemprop="memberOf">
 		<span itemscope itemtype="http://schema.org/GovernmentOrganization">
-			<span itemprop="name" lang="ga_IE">Dáil Éireann</span>
+			<span itemprop="name">Dáil Éireann</span>
 			<a itemprop="url" href="http://gov.ie/"></a>
 			<span itemprop="description">The Government of Ireland</span>
 			<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
