@@ -61,3 +61,7 @@ exclude:
 # Google Services
 google_analytics: UA-97984664-1
 
+# Build time
+incremental: true
+
+# https://hydepress.github.io/jekyll
