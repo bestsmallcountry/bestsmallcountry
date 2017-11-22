@@ -148,3 +148,9 @@ pre { clear: both; }
 .hide { visibility: hidden; }
 em { font-weight:  bold; }
 mark { color: red; background: white; }
+
+.right_justified { float: right; }
+.centered_text { text-align: center; }
+.pool_receipts { list-style-type: none; }
+
+

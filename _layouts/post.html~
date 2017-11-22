@@ -24,11 +24,10 @@ layout: default
 {% endif %}
 
 <span itemscope itemtype="http://schema.org/NewsArticle">
-<span class="microdata">
-<span itemprop="headline">{{ page.title }}</span>
-    <span itemprop="datePublished" content="2017-02-24">2017-02-24</span>
-    <span itemprop="description">{{ page.description }}</span>
-    <span itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+<!-- <span class="microdata" itemprop="headline">{{ page.title }}</span>
+    <span class="microdata" itemprop="datePublished" content="2017-02-24">2017-02-24</span>
+    <span class="microdata" itemprop="description">{{ page.description }}</span>
+    <span class="microdata" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
         <meta itemprop="height" content="200">
         <meta itemprop="width" content="300">
         <meta itemprop="url" content="http://bestsmallcountry.github.io/images/site.logo">
@@ -42,8 +41,7 @@ layout: default
         </span>
         <span itemprop="name">{{ site.author }}</span>
     </span>
-</span>
-    <span itemprop="articleBody">
+-->    <span itemprop="articleBody">
 
 <header class="post-header">
 	<h2>{{ page.title }}</h2>

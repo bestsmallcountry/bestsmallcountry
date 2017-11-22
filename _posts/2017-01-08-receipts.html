@@ -1,0 +1,77 @@
+---
+layout: post
+gallery: true
+images:
+ - image_path: /images/pool_receipts/2016-10-27-mullingar.png 
+   title: Mullingar
+ - image_path: /images/pool_receipts/2016-10-21-mullingar.png 
+   title: Mullingar
+ - image_path: /images/pool_receipts/2016-10-28-roscommon.png 
+   title: Roscommon
+ - image_path: /images/pool_receipts/2016-10-22-roscommon.png 
+   title: Roscommon
+ - image_path: /images/pool_receipts/2016-10-26-roscommon.png 
+   title: Roscommon
+ - image_path: /images/pool_receipts/2016-10-20-mullingar.png 
+   title: Mullingar
+ - image_path: /images/pool_receipts/2016-10-30-roscommon.png 
+   title: Roscommon
+ - image_path: /images/pool_receipts/2016-11-02-carrick.png 
+   title: Carrick-on-Shannon
+ - image_path: /images/pool_receipts/2016-10-09-cavan.png 
+   title: Cavan
+ - image_path: /images/pool_receipts/2016-10-12-mullingar.png 
+   title: Mullingar
+ - image_path: /images/pool_receipts/2016-10-31-roscommon.png 
+   title: Roscommon
+ - image_path: /images/pool_receipts/2016-10-17-carrick.png 
+   title: Carrick-on-Shannon
+ - image_path: /images/pool_receipts/2016-10-06-mullingar.png 
+   title: Mullingar
+ - image_path: /images/pool_receipts/2016-11-01-roscommon.png 
+   title: Roscommon
+ - image_path: /images/pool_receipts/2016-11-03-carrick.png 
+   title: Carrick-on-Shannon
+ - image_path: /images/pool_receipts/2016-10-16-cavan.png 
+   title: Cavan
+ - image_path: /images/pool_receipts/2016-10-19-mullingar.png 
+   title: Mullingar
+ - image_path: /images/pool_receipts/2016-10-29-mullingar.png 
+   title: Mullingar
+ - image_path: /images/pool_receipts/2016-10-11-mullingar.png 
+   title: Mullingar
+ - image_path: /images/pool_receipts/2016-10-23-cavan.png 
+   title: Cavan
+ - image_path: /images/pool_receipts/2016-10-08-carrick.png 
+   title: Carrick-on-Shannon
+ - image_path: /images/pool_receipts/2016-10-13-mullingar.png 
+   title: Mullingar
+ - image_path: /images/pool_receipts/2016-10-18-mullingar.png 
+   title: Mullingar
+ - image_path: /images/pool_receipts/2016-10-15-mullingar.png 
+   title: Mullingar
+ - image_path: /images/pool_receipts/2016-10-24-roscommon.png 
+   title: Roscommon
+ - image_path: /images/pool_receipts/2016-10-07-mullingar.png 
+   title: Mullingar
+ - image_path: /images/pool_receipts/2016-10-10-ballinasloe.png 
+   title: Ballinasloe
+ - image_path: /images/pool_receipts/2016-10-25-mullingar.png 
+   title: Mullingar
+ - image_path: /images/pool_receipts/2016-10-14-mullingar.png 
+   title: Mullingar
+---
+<ul id="gallery">
+{% for image in page.images %}
+    <li>
+        <div class="saga-description">
+            <h3>Pool Receipts</h3>
+            <p>Admission to {{ image.title }}</p>
+            </div>
+            <img src="{{ image.image_path }}" alt="{{ image.title }}">
+        </div>
+    </li>
+{% endfor %}
+</ul>
+
+

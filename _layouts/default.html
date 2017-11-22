@@ -11,6 +11,18 @@
 	</div>
 </div>
 </main>
+
+{% if page.gallery %}
+    <script>{% include saga-gallery.min.js %}</script>
+   <script>
+        var gallery = new SagaGallery('gallery', {
+            onOpen: function() {
+                console.log('open');
+            }
+        });
+    </script>
+{% endif %}
+
 {% include footer.html %}
 </body>
 </html>

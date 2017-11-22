@@ -1,21 +1,38 @@
+{% assign alt = post.url |remove: '.html' |replace: '/', '' |slice: -1 %}
+{% if alt == '2' %}
+{% endif %}
+
 <li>
-	<span>
-		<span>
+	<div>
+		<div>
 			<span class="post-meta">
 				<span class="blog_date">
 					{{ include.date | date: "%b %-d, %Y" }}
 				</span>
-				<span class="blog_category">
+				<span class="blog_category centered_text">
 					{{ include.category }}
 				</span>
 				<span class="blog_source">
 					{{ include.source }}
 				</span>
 			</span>
-		</span>
-		<span><br />
+		</div>
+		<div>
+            <a href="{{ post.url }}">
+            <div>
     		<img src="{{ include.img }}" alt="{{ include.alt }}" width="{{ include.width }}" >
-			<a href="{{ post.url }}">{{ post.title }}</a>
-		</span>
-	</span>
+    		<span class="centered_text">
+			 {{ post.title }}
+			</span>
+			{% if alt == 'i' %}
+                <img class="right_justified" src="/images/svg/l.svg" alt="{{ alt }}" width="{{ include.width }}" >
+            {% endif %}
+            {% if alt == 'o' %}
+                <img class="right_justified" src="/images/svg/r.svg" alt="{{ alt }}" width="{{ include.width }}" >
+            {% endif %}
+			</div>
+			</a>
+		</div>
+	</div>
+	<br /><hr />
 </li>

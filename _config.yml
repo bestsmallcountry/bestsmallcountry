@@ -15,7 +15,7 @@ title: Best Small Country
 email: bestsmallcountry.ie@gmail.com
 description: The Best Small Country in the World
 # baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "http://bestsmallcountry.ie" # the base hostname & protocol for your site
+url: "https://bestsmallcountry.ie" # the base hostname & protocol for your site
 logo: images/sitelogo.png
 video: video/vid_20160327_194333.mp4 
 # twitter_username: jekyllrb
@@ -25,7 +25,7 @@ ampdir: amp
 
 # Custom Variables
 motto: Retaliation in the public interest
-fqdn: http://bestsmallcountry.ie
+fqdn: https://bestsmallcountry.ie
 author: Mel McWeeney
 
 # Build settings
