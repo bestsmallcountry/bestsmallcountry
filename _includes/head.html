@@ -3,7 +3,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="keywords" content="{{ site.title }}{% if page.category %}, {{ page.category }}{% endif %}{% if page.source %}, {{ page.source }}{% endif %}">
-	<style type="text/css">{% include main.css %}
+	<style>{% include main.css %}
         {% if page.gallery %}
             {% include saga-gallery.min.css %}
         {% endif %}
@@ -20,7 +20,7 @@
 	<meta name="ROBOTS" content="INDEX, FOLLOW">
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.fqdn }}" hreflang="en-ie">
 	{% include seo.html %}
-	<script type="text/javascript" src="/js/here_there.js" async></script>
+	<script src="/js/here_there.js" async></script>
 	{% if site.google_analytics and jekyll.environment == 'production' %}
     	{% include analytics.html %}
 	{% endif %}

@@ -1,0 +1,18 @@
+<span class="microdata" itemscope itemtype="http://schema.org/Person">
+	{{ include.content }}
+	<span itemprop="name">Darren Madden</span>
+	<span itemprop="givenName">Darren</span>
+	<span itemprop="familyName">Madden</span>
+	<span itemprop="jobTitle">Personal Trainer</span>
+	<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+		<span itemprop="streetAddress">Cloghan</span>
+		<span itemprop="addressLocality">Moydow</span>
+		<span itemprop="addressRegion">Longford</span>
+		<span itemprop="addressCountry">Ireland</span>
+	</span>	<span itemprop="url">https://www.facebook.com/maddser</span>
+
+	<span itemprop="worksFor">
+		{% include m/longford_sports_and_leisure.span content="Longford Sports and Leisure Centre" %}
+	</span>
+
+</span>

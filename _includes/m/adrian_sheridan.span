@@ -1,0 +1,22 @@
+<span class="microdata" itemscope itemtype="http://schema.org/Person">
+	{{ include.content }}
+	<span itemprop="name">Adrian Sheridan</span>
+	<span itemprop="givenName">Adrian</span>
+	<span itemprop="familyName">Sheridan</span>
+
+    <span itemprop="url">http://sometag.com/account/adrian.sheridan/2300650261/</span>
+    <span itemprop="url">https://www.facebook.com/adrian.sheridan.7</span>
+    <span itemprop="url">http://trendhashtags.com/user/adrian.sheridan-2300650261</span>
+	<span itemprop="url">http://www.pictaram.life/user/2300650261</span>
+	<span itemprop="image">https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/21227233_205460356658605_505554836566048768_n.jpg</span>
+	<span itemprop="image">https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/20759881_1764473073851585_8585377086238097408_n.jpg</span>
+    <span itemprop="image">https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/15624832_203410393396389_1650445589847998464_n.jpg</span>
+    <span itemprop="image">https://scontent.cdninstagram.com/t51.2885-15/e35/p320x320/14134689_839855482816891_819902846_n.jpg</span>
+    <span itemprop="image">https://scontent.cdninstagram.com/t51.2885-15/s320x320/e35/21227233_205460356658605_505554836566048768_n.jpg</span>
+    <span itemprop="image">https://scontent.cdninstagram.com/t51.2885-15/s320x320/sh0.08/e35/18513451_154150845123392_8777151009546829824_n.jpg</span>
+
+	<span itemprop="worksFor">
+		{% include m/longford_sports_and_leisure.span content="Longford Sports and Leisure Centre" %}
+	</span>
+
+</span>

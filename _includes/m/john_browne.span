@@ -3,7 +3,8 @@
 	<span itemprop="name">John Browne</span>
 	<span itemprop="givenName">John</span>
 	<span itemprop="familyName">Browne</span>
-		<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+
+	<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 		<span itemprop="streetAddress">9 College Park</span>
 		<span itemprop="addressLocality">Longford</span>
 		<span itemprop="addressRegion">Co. Longford</span>

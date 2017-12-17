@@ -1,0 +1,24 @@
+<span class="microdata" itemscope itemtype="http://schema.org/Person">
+	{{ include.content }}
+	<span itemprop="name">Nora O'Farrell</span>
+	<span itemprop="givenName">Nora</span>
+	<span itemprop="familyName">O'Farrell</span>
+
+   	<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+		<span itemprop="streetAddress">Fermoyle</span>
+		<span itemprop="addressLocality">Lanesboro</span>
+		<span itemprop="addressRegion">Co. Longford</span>
+		<span itemprop="addressCountry">Ireland</span>
+	</span>
+	<span itemprop="telephone">043 3343513</span>
+	<span itemprop="telephone">043 3343300</span>
+
+	<span itemprop="url">https://www.facebook.com/longfordleader/posts/737881769567833</span>
+
+    <span itemprop="image">http://www.longfordleader.ie/resizer/750/563/true/imported_images/ad8ae3d8e6f16bb698f4a52a60772c90.jpg--frank_kilbride_with_returning_officer_nora_o_farrell_at_the_local_elections_count_centre_in_newtownforbes__photo__michelle_ghee_.jpg</span>
+
+	<span itemprop="worksFor">
+		{% include m/longford_county_council.span content="Longford County Council" %}
+	</span>
+
+</span>
